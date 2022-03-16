@@ -1,0 +1,63 @@
+.principal {
+    /* background-color: blue; */
+    width: 16.65vw;
+    height: 100vh;
+    overflow-y: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    /* background-color: pink; */
+    width: 70%;
+    height: 80vh;
+    overflow-y: auto;
+}
+
+.principal .wrapper div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.principal .wrapper div span:nth-child(1) {
+    /* Títulos */
+    font-size: 1em;
+    margin-block-start: 1.67em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: var(--branco);
+}
+
+.principal .wrapper div span:nth-child(n+2) {
+    /* Itens */
+    font-size: 1em;
+    padding: 6px 0;
+    line-height: 1.5;
+    place-items: center;
+    -webkit-transition: opacity .2s, color .2s;
+    transition: opacity .2s, color .2s;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Scrollbar */
+.principal ::-webkit-scrollbar {
+    width: 6px;
+}
+
+.principal ::-webkit-scrollbar-track {
+    background: var(--preto);
+}
+
+.principal ::-webkit-scrollbar-thumb {
+    background: #262626;
+    border-radius: 100px;
+}
+
+.principal ::-webkit-scrollbar-thumb:hover {
+    background: #313131;
+}

@@ -1,3 +1,11 @@
+.principal {
+  background-color: var(--preto);
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+}
+
 .titulo {
   font-size: 64px;
   font-weight: 600;
