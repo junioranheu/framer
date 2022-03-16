@@ -1,7 +1,7 @@
 .principal {
   background-color: var(--preto);
   width: 100vw;
-
+ 
   display: flex;
   justify-content: center;
 }
@@ -13,4 +13,23 @@
   line-height: 70px;
   text-rendering: optimizelegibility;
   word-break: break-word;
+}
+
+
+/* Scrollbar */
+.principal ::-webkit-scrollbar {
+  width: 6px;
+}
+
+.principal ::-webkit-scrollbar-track {
+  background: var(--preto);
+}
+
+.principal ::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 100px;
+}
+
+.principal ::-webkit-scrollbar-thumb:hover {
+  background: #313131;
 }

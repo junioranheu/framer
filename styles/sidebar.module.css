@@ -7,12 +7,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    /* position: fixed; */
 }
 
 .wrapper {
     /* background-color: pink; */
     width: 70%;
-    height: 80vh;
+    height: 85vh;
     overflow-y: auto;
 }
 
@@ -42,22 +44,4 @@
     -webkit-transition: opacity .2s, color .2s;
     transition: opacity .2s, color .2s;
     color: rgba(255, 255, 255, 0.7);
-}
-
-/* Scrollbar */
-.principal ::-webkit-scrollbar {
-    width: 6px;
-}
-
-.principal ::-webkit-scrollbar-track {
-    background: var(--preto);
-}
-
-.principal ::-webkit-scrollbar-thumb {
-    background: #262626;
-    border-radius: 100px;
-}
-
-.principal ::-webkit-scrollbar-thumb:hover {
-    background: #313131;
 }

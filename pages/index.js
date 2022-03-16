@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
-import Sidebar from '../components/outros/sidebar';
+import SidebarDireita from '../components/docs/sidebarDireita';
+import SidebarEsquerda from '../components/docs/sidebarEsquerda';
 import Styles from '../styles/geral.module.css';
 import Introduction from './docs/introduction';
 
@@ -19,9 +20,9 @@ export default function Home() {
             </section>
 
             <section className={Styles.principal}>
-                <Sidebar />
+                <SidebarEsquerda />
                 <Introduction />
-                <Sidebar />
+                <SidebarDireita />
             </section>
         </Fragment>
     )

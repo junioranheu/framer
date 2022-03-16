@@ -1,6 +1,6 @@
 import Styles from '../../styles/sidebar.module.css'
 
-export default function Sidebar() {
+export default function SidebarEsquerda() {
     return (
         <section className={Styles.principal}>
             <div className={Styles.wrapper}>
