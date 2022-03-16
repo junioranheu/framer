@@ -1,0 +1,8 @@
+.titulo {
+  font-size: 64px;
+  font-weight: 600;
+  color: var(--branco);
+  line-height: 70px;
+  text-rendering: optimizelegibility;
+  word-break: break-word;
+}

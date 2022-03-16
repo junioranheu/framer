@@ -33,10 +33,23 @@
     src: url('./GTWalsheim/GTWalsheimPro-Medium.woff') format('woff');
 }
 
-
 @font-face {
     font-family: 'GT';
     font-style: normal;
     font-weight: 600;
     src: url('./GTWalsheim/GTWalsheimPro-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'GT';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./GTWalsheim/GTWalsheimPro-Black.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'GT';
+    font-style: normal;
+    font-weight: 800;
+    src: url('./GTWalsheim/GTWalsheimPro-UltraBold.woff') format('woff');
 }

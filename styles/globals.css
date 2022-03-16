@@ -1,10 +1,17 @@
+:root {
+  --preto: #1A1A1A;
+  --super-preto: #000000;
+  --branco: #FFFFFF;
+  --cor-principal: #00BBFF;
+  --cor-principal-escura: #0D6A8C;
+}
+
 html, body {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-
-  /* Fonte padrão */
   font-family: 'GT';
+  background-color: var(--preto);
 }
 
 a {
