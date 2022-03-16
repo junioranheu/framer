@@ -2,7 +2,7 @@ import Styles from '../../styles/sidebar.module.css'
 
 export default function SidebarDireita() {
     return (
-        <section className={Styles.principal}>
+        <section className={`${Styles.principal} ${Styles.direita}`}>
             <div className={Styles.wrapper}>
                 <div>
                     <span>On this page</span>

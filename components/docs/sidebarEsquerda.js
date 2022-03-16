@@ -2,7 +2,7 @@ import Styles from '../../styles/sidebar.module.css'
 
 export default function SidebarEsquerda() {
     return (
-        <section className={Styles.principal}>
+        <section className={`${Styles.principal} ${Styles.esquerda}`}>
             <div className={Styles.wrapper}>
                 <div>
                     <span>Getting started</span>

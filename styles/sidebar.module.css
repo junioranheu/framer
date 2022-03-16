@@ -5,10 +5,15 @@
     overflow-y: hidden;
 
     display: flex;
-    justify-content: center;
     align-items: center;
+}
 
-    /* position: fixed; */
+.esquerda {
+    justify-content: right;
+}
+
+.direita {
+    justify-content: center;
 }
 
 .wrapper {
