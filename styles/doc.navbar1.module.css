@@ -1,0 +1,32 @@
+.navbar {
+    background-color: var(--super-preto);
+    color: var(--branco);
+
+    height: 32px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar span {
+    margin: 0 2px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navbar span:nth-child(2) {
+    opacity: 0.8;
+}
+
+.navbar span:nth-child(3) {
+    margin: 0 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar span:nth-child(3) svg {
+    margin-top: 2.5px;
+}
