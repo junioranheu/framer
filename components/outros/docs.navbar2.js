@@ -23,7 +23,7 @@ export default function Navbar2() {
                     <Link href='/'><a>Sign in</a></Link>
 
                     <span className={Styles.margemBotao}>
-                        <Botao texto={'Sign up for free'} url={'/'} />
+                        <Botao texto={'Sign up for free'} url={'/'} isNovaAba={false} />
                     </span>
                 </div>
             </div>
