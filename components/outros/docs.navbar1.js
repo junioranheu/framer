@@ -19,7 +19,6 @@ export default function Navbar1() {
                 )
             }
 
-
             <span className='pointer cor-principal-hover' onClick={() => { window.open('https://github.com/junioranheu', '_blank'); }}>@junioranheu <Seta /></span>
         </nav>
     )
