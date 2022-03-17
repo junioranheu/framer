@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import { v4 as Uuidv4 } from 'uuid';
+import Footer from '../components/outros/footer';
 import Sidebar from '../components/outros/sidebar';
 import Styles from '../styles/geral.module.css';
 import ItensSidebarDireita from '../utils/sidebar/doc.itensSidebarDireita';
@@ -25,6 +26,8 @@ export default function Doc({ Component, pageProps }) {
                 <Component {...pageProps} />
                 <Sidebar key={Uuidv4()} itens={ItensSidebarDireita()} justify={'center'} />
             </section>
+
+            <Footer/>
         </Fragment>
     )
 }

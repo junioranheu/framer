@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import Footer from '../components/outros/footer';
 
 export default function Teste({ Component, pageProps }) {
     return (
@@ -8,6 +9,8 @@ export default function Teste({ Component, pageProps }) {
             </section>
 
             <Component {...pageProps} />
+
+            <Footer />
         </Fragment>
     )
 }

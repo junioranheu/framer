@@ -1,14 +1,18 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../fonts/GTWalsheim.css';
 import LayoutDoc from '../layouts/doc';
 import LayoutTeste from '../layouts/teste';
 import '../styles/globals.css';
 
 export default function App({ Component, pageProps, ...appProps }) {
-    const [url] = useState(appProps.router.pathname);
+    const [url, setUrl] = useState('');
+
+    useEffect(() => {
+        setUrl(appProps.router.pathname);
+    }, [appProps]);
 
     function verificarLayout() {
-        // console.log(url);
+        // console.log(`Url: ${url}`);
 
         if (url.includes('/docs')) {
             return (
@@ -21,6 +25,6 @@ export default function App({ Component, pageProps, ...appProps }) {
         }
     }
 
-    return verificarLayout();
+    return url ? verificarLayout() : <h1>Erro em _app.js</h1>;
 }
 

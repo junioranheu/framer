@@ -2,7 +2,7 @@ function lista() {
     const itensSidebarEsquerda = [
         {
             item: 'Getting started', subItens: [
-                { item: 'Introduction', url: '/' },
+                { item: 'Introduction', url: '/docs/introduction' },
                 { item: 'Examples', url: '/docs/examples/' },
                 { item: 'API', url: '/docs/animation/' },
                 { item: 'Animation', url: '/docs/animation/' },
