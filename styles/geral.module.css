@@ -15,7 +15,6 @@
   word-break: break-word;
 }
 
-
 /* Scrollbar */
 .principal ::-webkit-scrollbar {
   width: 6px;
