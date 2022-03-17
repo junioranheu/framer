@@ -84,40 +84,17 @@
 
     /* =-=-=-=-=-=-=-=-=-=-=-=- Principal =-=-=-=-=-=-=-=-=-=-=-=- */
     .principal {
+        /* background-color: blue; */
         display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 100vw;
-        /* margin-top: 4vw; */
-        margin-bottom: 2vw;
+        justify-content: left;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 80vw;
     }
 
     .sessao {
         /* background-color: pink; */
-        width: 90vw;
-        margin-top: 10px;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-
-    .sessao .tituloSessao {
-        /* Quebrar linha do título: https://tobiasahlin.com/blog/flexbox-break-to-new-row/ */
-        flex-basis: 100%;
-        height: 0;
-        margin-bottom: 15px;
-    }
-
-    .principal .sessao:nth-child(n+2) {
-        margin-top: 20px;
-        border-top: 1px solid #DDDDDD;
-        padding-top: 20px;
-    }
-
-    .sessao a {
-        margin-top: 0px;
-        flex: 1 0 31%;
+        flex: 0 0 30%;
     }
 
     /* =-=-=-=-=-=-=-=-=-=-=-=- Secundária =-=-=-=-=-=-=-=-=-=-=-=- */
