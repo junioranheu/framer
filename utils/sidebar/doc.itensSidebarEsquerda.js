@@ -3,8 +3,12 @@ function lista() {
         {
             item: 'Getting started', subItens: [
                 { item: 'Introduction', url: '/docs/introduction' },
-                { item: 'Examples', url: '/docs/examples' },
-                { item: 'API', url: '/docs/animation' },
+                { item: 'Examples', url: '/docs/examples' }
+            ]
+        },
+
+        {
+            item: 'API', subItens: [
                 { item: 'Animation', url: '/docs/animation' },
                 { item: 'Transition', url: '/docs/transition' },
                 { item: 'Gestures', url: '/docs/gestures' },

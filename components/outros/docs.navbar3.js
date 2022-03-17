@@ -1,46 +1,33 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
+import React, { useEffect, useState } from 'react';
 import Styles from '../../styles/docs.navbar3.module.css';
 
 export default function Navbar1() {
     const itens = [
-        {
-            item: 'On this page', subItens: []
-        },
-
-        {
-            item: 'Overview', subItens: [
-                { item: 'Animations', url: '/docs/xxx' },
-                { item: 'Gestures', url: '/docs/xxx' },
-                { item: 'Variants', url: '/docs/xxx' },
-                { item: 'Server-side rendering', url: '/docs/xxx' },
-                { item: 'MotionValues', url: '/docs/xxx' },
-                { item: 'Scroll-based animations', url: '/docs/xxx' }
-            ]
-        },
-
-        {
-            item: 'Quick Start', subItens: [
-                { item: 'Installation', url: '/docs/xxx' },
-                { item: 'Importing', url: '/docs/xxx' }
-            ]
-        },
-
-        {
-            item: 'Topics', subItens: [
-                { item: 'Animation', url: '/docs/xxx' },
-                { item: 'Gestures', url: '/docs/xxx' },
-                { item: 'MotionValue', url: '/docs/xxx' }
-            ]
-        }
+        { item: 'Overview', url: '/developers' },
+        { item: 'Motion', url: '/motion' },
+        { item: 'Handshake', url: '/developers/handshake' },
+        { item: 'Guides', url: '/docs/guides' },
+        { item: 'API Documentation', url: '/docs' }
     ]
+
+    const { asPath } = useRouter();
+    const [urlAtual, setUrlAtual] = useState('');
+    useEffect(() => {
+        // console.log(asPath);
+        setUrlAtual(asPath);
+    }, [asPath]);
+
+    // console.log(itens);
 
     return (
         <nav className={Styles.navbar}>
-            <Link href='/'><a>Overview</a></Link>
-            <Link href='/'><a>Motion</a></Link>
-            <Link href='/'><a>Handshake</a></Link>
-            <Link href='/'><a>Guides</a></Link>
-            <Link href='/'><a>API Documentation</a></Link>
+            {itens.map((item, i) => (
+                <Link key={i} href={item.url}>
+                    <a className={`${(urlAtual === item.url ? 'opacidade' : '')}`}>{item.item}</a>
+                </Link>
+            ))}
         </nav>
     )
 }

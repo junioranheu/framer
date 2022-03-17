@@ -52,3 +52,6 @@ a {
   transition: .3s ease-in;
 }
 
+.opacidade{
+  opacity: 1 !important;
+}

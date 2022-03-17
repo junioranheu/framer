@@ -6,7 +6,7 @@ import Styles from '../../styles/sidebar.module.css';
 export default function Sidebar({ itens, justify }) {
     const { asPath } = useRouter();
     const [urlAtual, setUrlAtual] = useState('');
-
+    
     useEffect(() => {
         // console.log(asPath);
         setUrlAtual(asPath);
