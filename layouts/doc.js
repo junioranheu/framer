@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { v4 as Uuidv4 } from 'uuid';
 import Navbar1 from '../components/outros/docs.navbar1';
+import Navbar2 from '../components/outros/docs.navbar2';
 import Navbar3 from '../components/outros/docs.navbar3';
 import Footer from '../components/outros/footer';
 import Sidebar from '../components/outros/sidebar';
@@ -11,11 +12,7 @@ export default function Doc({ Component, pageProps }) {
     return (
         <Fragment>
             <Navbar1 />
-
-            <section>
-                Navbar 2
-            </section>
-
+            <Navbar2 />
             <Navbar3 />
 
             <section className={Styles.principal}>

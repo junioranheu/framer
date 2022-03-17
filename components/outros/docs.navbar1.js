@@ -1,4 +1,4 @@
-import Styles from '../../styles/doc.navbar1.module.css';
+import Styles from '../../styles/docs.navbar1.module.css';
 import Seta from '../svg/seta';
 
 export default function Navbar1() {
