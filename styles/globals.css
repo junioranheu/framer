@@ -43,6 +43,10 @@ a {
   user-select: none
 }
 
+.cor-principal {
+  color: var(--cor-principal) !important;
+}
+
 .cor-principal-hover:hover {
   color: var(--cor-principal) !important;
   transition: .3s ease-in;

@@ -5,6 +5,6 @@ export default function Introduction() {
     return (
         <section className={Styles.principal}>
             <span className={StylesGeral.titulo}>Introduction</span>
-        </section>
+        </section> 
     )
 }
