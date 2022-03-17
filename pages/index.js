@@ -1,10 +1,12 @@
 import React, { Fragment } from 'react';
-import SidebarDireita from '../components/docs/sidebarDireita';
-import SidebarEsquerda from '../components/docs/sidebarEsquerda';
+import { v4 as Uuidv4 } from 'uuid';
+import Sidebar from '../components/outros/sidebar';
 import Styles from '../styles/geral.module.css';
-import Introduction from './docs/introduction';
+import ItensSidebarDireita from '../utils/sidebar/doc.itensSidebarDireita';
+import ItensSidebarEsquerda from '../utils/sidebar/doc.itensSidebarEsquerda';
+import Index from './docs';
 
-export default function Home() {
+export default function Home({ Component, pageProps }) {
     return (
         <Fragment>
             <section>
@@ -20,9 +22,9 @@ export default function Home() {
             </section>
 
             <section className={Styles.principal}>
-                <SidebarEsquerda />
-                <Introduction />
-                <SidebarDireita />
+                <Sidebar key={Uuidv4()} itens={ItensSidebarEsquerda()} justify={'right'} />
+                <Index />
+                <Sidebar key={Uuidv4()} itens={ItensSidebarDireita()} justify={'center'} />
             </section>
         </Fragment>
     )

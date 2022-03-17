@@ -23,11 +23,11 @@
 
 .principal ::-webkit-scrollbar-track {
   background: var(--preto);
+  height: 6px !important;
 }
 
 .principal ::-webkit-scrollbar-thumb {
   background: #262626;
-  border-radius: 100px;
 }
 
 .principal ::-webkit-scrollbar-thumb:hover {

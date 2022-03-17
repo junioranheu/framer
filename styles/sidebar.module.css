@@ -8,14 +8,6 @@
     align-items: center;
 }
 
-.esquerda {
-    justify-content: right;
-}
-
-.direita {
-    justify-content: center;
-}
-
 .wrapper {
     /* background-color: pink; */
     width: 70%;
@@ -23,13 +15,13 @@
     overflow-y: auto;
 }
 
-.principal .wrapper div {
+.divItem {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.principal .wrapper div span:nth-child(1) {
+.item {
     /* Títulos */
     font-size: 1em;
     margin-block-start: 1.67em;
@@ -40,7 +32,7 @@
     color: var(--branco);
 }
 
-.principal .wrapper div span:nth-child(n+2) {
+.subItem {
     /* Itens */
     font-size: 1em;
     padding: 6px 0;
@@ -50,3 +42,8 @@
     transition: opacity .2s, color .2s;
     color: rgba(255, 255, 255, 0.7);
 }
+
+.subItem:not(.active):hover {
+    color: hsl(0, 0%, 100%);
+}
+
