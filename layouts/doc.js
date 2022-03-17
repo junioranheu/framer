@@ -11,16 +11,18 @@ import ItensSidebarEsquerda from '../utils/sidebar/doc.itensSidebarEsquerda';
 export default function Doc({ Component, pageProps }) {
     return (
         <Fragment>
-            <Navbar1 />
-            <Navbar2 />
-            <Navbar3 />
+            <main className='main'>
+                <Navbar1 />
+                <Navbar2 />
+                <Navbar3 />
 
-            <section className={Styles.principal}>
-                <Sidebar key={Uuidv4()} itens={ItensSidebarEsquerda()} justify={'right'} />
-                <Component {...pageProps} />
-            </section>
+                <section className={Styles.principal}>
+                    <Sidebar key={Uuidv4()} itens={ItensSidebarEsquerda()} justify={'right'} />
+                    <Component {...pageProps} />
+                </section>
 
-            <Footer />
+                <Footer />
+            </main>
         </Fragment>
     )
 }
