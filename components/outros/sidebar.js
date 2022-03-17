@@ -1,7 +1,7 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
+import React from 'react';
 import Styles from '../../styles/sidebar.module.css';
-import React, { useContext, useEffect, useRef, useState } from 'react';
-import { useRouter } from 'next/router'
 
 export default function Sidebar({ itens, justify }) {
     const { asPath } = useRouter();
