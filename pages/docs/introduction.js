@@ -7,8 +7,10 @@ import ItensSidebarDireita from '../../utils/sidebar/doc.itensSidebarDireita';
 export default function Introduction() {
     return (
         <Fragment>
-            <section className={Styles.principal}>
-                <span className={StylesGeral.titulo}>Introduction</span>
+            <section className={Styles.wrapper}>
+                <div className={Styles.principal}>
+                    <span className={StylesGeral.titulo}>Introduction</span>
+                </div>
             </section>
 
             <Sidebar itens={ItensSidebarDireita()} justify={'center'} />
