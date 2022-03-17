@@ -1,11 +1,18 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Styles from '../../styles/sidebar.module.css';
 
 export default function Sidebar({ itens, justify }) {
     const { asPath } = useRouter();
-    // console.log('asPath: ' + asPath);
+    const [urlAtual, setUrlAtual] = useState('');
+
+    useEffect(() => {
+        // console.log(asPath);
+        setUrlAtual(asPath);
+    }, [asPath]);
+
+    // console.log(itens);
 
     return (
         <section className={Styles.principal} style={{ justifyContent: justify }}>
@@ -17,7 +24,7 @@ export default function Sidebar({ itens, justify }) {
                         {item.subItens.map((subItem, i2) => (
                             subItem.url && (
                                 <Link key={i2} href={subItem.url}>
-                                    <a className={`${Styles.subItem} ${(asPath === subItem.url ? 'cor-principal' : '')}`}>
+                                    <a className={`${Styles.subItem} ${(urlAtual === subItem.url ? 'cor-principal' : '')}`}>
                                         {subItem.item}
                                     </a>
                                 </Link>

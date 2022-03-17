@@ -23,7 +23,6 @@ export default function Doc({ Component, pageProps }) {
             <section className={Styles.principal}>
                 <Sidebar key={Uuidv4()} itens={ItensSidebarEsquerda()} justify={'right'} />
                 <Component {...pageProps} />
-                {/* <Sidebar key={Uuidv4()} itens={ItensSidebarDireita()} justify={'center'} /> */}
             </section>
 
             <Footer/>
