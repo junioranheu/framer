@@ -8,8 +8,6 @@ export default function Navbar1() {
         <nav className={Styles.navbar}>
             <span>Projeto para estudar React.js e Next.js.</span>
 
-            {console.log(process.env.NODE_ENV)}
-
             {/* Para que eu não fique vendo a mensagem mudar a cada F5 em dev... */}
             {
                 process.env.NODE_ENV === 'development' ? (

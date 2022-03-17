@@ -22,7 +22,3 @@
     opacity: 0.5;
 }
 
-.navbar a:hover {
-    opacity: 1;
-    transition: opacity .2s;
-}

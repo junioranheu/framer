@@ -27,12 +27,16 @@
 .item {
     /* Títulos */
     font-size: 1em;
-    margin-block-start: 1.67em;
     margin-block-end: 0.5em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
     color: var(--branco);
+}
+
+.itemMargemTop {
+    /* color: red !important; */
+    margin-top: 1.67em;
 }
 
 .subItem {
@@ -44,4 +48,9 @@
     -webkit-transition: opacity .2s, color .2s;
     transition: opacity .2s, color .2s;
     color: rgba(255, 255, 255, 0.7);
+}
+
+.itemPadding {
+    /* color: pink !important; */
+    padding-left: 15px;
 }

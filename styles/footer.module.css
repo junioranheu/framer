@@ -22,6 +22,7 @@
 }
 
 .sessao {
+    /* background-color: pink; */
     width: 100vw;
     color: var(--branco);
 }

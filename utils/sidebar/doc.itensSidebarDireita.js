@@ -1,11 +1,7 @@
 function lista() {
     const itensSidebarDireita = [
         {
-            item: 'On this page', subItens: []
-        },
-
-        {
-            item: 'Overview', subItens: [
+            item: 'On this page<br/><br/>Overview', isPadding: true, subItens: [
                 { item: 'Animations', url: '/docs/xxx' },
                 { item: 'Gestures', url: '/docs/xxx' },
                 { item: 'Variants', url: '/docs/xxx' },
@@ -16,14 +12,14 @@ function lista() {
         },
 
         {
-            item: 'Quick Start', subItens: [
+            item: 'Quick Start', isPadding: true, subItens: [
                 { item: 'Installation', url: '/docs/xxx' },
                 { item: 'Importing', url: '/docs/xxx' }
             ]
         },
 
         {
-            item: 'Topics', subItens: [
+            item: 'Topics', isPadding: true, subItens: [
                 { item: 'Animation', url: '/docs/xxx' },
                 { item: 'Gestures', url: '/docs/xxx' },
                 { item: 'MotionValue', url: '/docs/xxx' }

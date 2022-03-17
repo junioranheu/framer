@@ -20,12 +20,12 @@ export default function Navbar1() {
     }, [asPath]);
 
     // console.log(itens);
-
+ 
     return (
         <nav className={Styles.navbar}>
             {itens.map((item, i) => (
                 <Link key={i} href={item.url}>
-                    <a className={`${(urlAtual === item.url ? 'opacidade' : '')}`}>{item.item}</a>
+                    <a className={`opacidade-hover ${(urlAtual === item.url ? 'opacidade' : '')}`}>{item.item}</a>
                 </Link>
             ))}
         </nav>

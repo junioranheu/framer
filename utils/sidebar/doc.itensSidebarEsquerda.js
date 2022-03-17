@@ -1,14 +1,14 @@
 function lista() {
     const itensSidebarEsquerda = [
         {
-            item: 'Getting started', subItens: [
+            item: 'Getting started', isPadding: false, subItens: [
                 { item: 'Introduction', url: '/docs/introduction' },
                 { item: 'Examples', url: '/docs/examples' }
             ]
         },
 
         {
-            item: 'API', subItens: [
+            item: 'API', isPadding: false, subItens: [
                 { item: 'Animation', url: '/docs/animation' },
                 { item: 'Transition', url: '/docs/transition' },
                 { item: 'Gestures', url: '/docs/gestures' },
@@ -18,7 +18,7 @@ function lista() {
         },
 
         {
-            item: 'Components', subItens: [
+            item: 'Components', isPadding: false, subItens: [
                 { item: 'Motion', url: '/docs/motion' },
                 { item: 'AnimatePresence', url: '/docs/animate-presence' },
                 { item: 'LayoutGroup', url: '/docs/layout-group' },
@@ -29,7 +29,7 @@ function lista() {
         },
 
         {
-            item: '3D', subItens: [
+            item: '3D', isPadding: false, subItens: [
                 { item: 'Introduction', url: '/docs/three-introduction' },
                 { item: 'LayoutCamera', url: '/docs/layoutcamera' },
                 { item: 'MotionCanvas', url: '/docs/motioncanvas' }
@@ -37,7 +37,7 @@ function lista() {
         },
 
         {
-            item: 'Motion resources', subItens: [
+            item: 'Motion resources', isPadding: false, subItens: [
                 { item: 'Accessibility', url: '/docs/accessibility' },
                 { item: 'Reduce bundle size', url: '/docs/guide-reduce-bundle-size' },
                 { item: 'Upgrade guides', url: '/docs/guide-upgrade' }
@@ -45,7 +45,7 @@ function lista() {
         },
 
         {
-            item: 'Code in Framer', subItens: [
+            item: 'Code in Framer', isPadding: false, subItens: [
                 { item: 'Utilities', url: '/docs/framer-utilities' },
                 { item: 'RenderTarget', url: '/docs/render-target' },
                 { item: 'Property Controls', url: '/docs/property-controls' }
@@ -53,7 +53,7 @@ function lista() {
         },
 
         {
-            item: 'Community', subItens: [
+            item: 'Community', isPadding: false, subItens: [
                 { item: 'GitHub', url: 'https://github.com/framer/motion' },
                 { item: 'Discord', url: 'https://discord.com/invite/framer' }
             ]
