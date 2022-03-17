@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import Sidebar from '../../components/outros/sidebar';
-import Styles from '../../styles/doc.module.css';
+import Styles from '../../styles/docs.module.css';
 import StylesGeral from '../../styles/geral.module.css';
 import ItensSidebarDireita from '../../utils/sidebar/doc.itensSidebarDireita';
 
