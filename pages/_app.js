@@ -26,6 +26,6 @@ export default function App({ Component, pageProps, ...appProps }) {
         }
     }
 
-    return url ? verificarLayout() : <h1>Erro em _app.js</h1>;
+    return url ? verificarLayout() : null;
 }
 
