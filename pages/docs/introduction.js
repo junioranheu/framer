@@ -9,7 +9,7 @@ export default function Introduction() {
         <Fragment>
             <section className={Styles.wrapper}>
                 <div className={Styles.principal}>
-                    <span className={StylesGeral.titulo}>Introduction</span>
+                    <span className={StylesGeral.titulo}>Introdução</span>
                 </div>
             </section>
 

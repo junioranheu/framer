@@ -1,28 +1,26 @@
 function lista() {
     const itensSidebarDireita = [
         {
-            item: 'On this page<br/><br/>Overview', isPadding: true, subItens: [
-                { item: 'Animations', url: '/docs/xxx' },
-                { item: 'Gestures', url: '/docs/xxx' },
-                { item: 'Variants', url: '/docs/xxx' },
-                { item: 'Server-side rendering', url: '/docs/xxx' },
-                { item: 'MotionValues', url: '/docs/xxx' },
-                { item: 'Scroll-based animations', url: '/docs/xxx' }
+            item: 'Nessa página<br/><br/>Overview', isPadding: true, subItens: [
+                { item: 'Animações', url: '/docs/xxx' },
+                { item: 'Gestos', url: '/docs/xxx' },
+                { item: 'Variantes', url: '/docs/xxx' },
+                { item: 'Renderização do lado do servidor', url: '/docs/xxx' },
+                { item: 'Animações baseadas em scroll', url: '/docs/xxx' }
             ]
         },
 
         {
-            item: 'Quick Start', isPadding: true, subItens: [
-                { item: 'Installation', url: '/docs/xxx' },
-                { item: 'Importing', url: '/docs/xxx' }
+            item: 'Início rápido', isPadding: true, subItens: [
+                { item: 'Instalação', url: '/docs/xxx' },
+                { item: 'Importar', url: '/docs/xxx' }
             ]
         },
 
         {
-            item: 'Topics', isPadding: true, subItens: [
-                { item: 'Animation', url: '/docs/xxx' },
-                { item: 'Gestures', url: '/docs/xxx' },
-                { item: 'MotionValue', url: '/docs/xxx' }
+            item: 'Tópicos', isPadding: true, subItens: [
+                { item: 'Animação', url: '/docs/xxx' },
+                { item: 'Gestos', url: '/docs/xxx' }
             ]
         }
     ]

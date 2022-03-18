@@ -5,7 +5,7 @@ export default function Index() {
     return (
         <section className={Styles.wrapper}>
             <div className={Styles.principal}>
-                <span className={StylesGeral.titulo}>Index</span>
+                <span className={StylesGeral.titulo}>Documentação</span>
             </div>
         </section>
     )

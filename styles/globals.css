@@ -72,3 +72,18 @@ a {
   color: var(--branco);
   transition: opacity .2s;
 }
+
+.new{
+  position: relative;
+  display: inline-block;
+  margin-left: 8px;
+  color: var(--cor-principal);
+  font-size: 0.8em;
+  line-height: 1;
+  text-decoration: none;
+  text-transform: lowercase;
+  -webkit-transform: rotate(-4deg) translateY(2px);
+  transform: rotate(-4deg) translateY(2px);
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}

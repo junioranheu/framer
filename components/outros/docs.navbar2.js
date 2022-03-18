@@ -10,20 +10,20 @@ export default function Navbar2() {
             <div>
                 <div>
                     <Link href='/'><a className={Styles.iconeCorInvertida}><Framer />&nbsp;&nbsp;Framer</a></Link>
-                    <Link href='/'><a>Teams</a></Link>
-                    <Link href='/'><a>Showcase</a></Link>
-                    <Link href='/'><a>Developers</a></Link>
-                    <Link href='/'><a>Resources</a></Link>
+                    <Link href='/'><a>Time</a></Link>
+                    <Link href='/'><a>Mostruário</a></Link>
+                    <Link href='/'><a>Desenvolvedores</a></Link>
+                    <Link href='/'><a>Recursos</a></Link>
                     <Link href='/'><a>Blog</a></Link>
-                    <Link href='/'><a>Pricing</a></Link>
+                    <Link href='/'><a>Preço</a></Link>
                     <Link href='/'><a><Lupa /></a></Link>
                 </div>
 
                 <div>
-                    <Link href='/'><a>Sign in</a></Link>
+                    <Link href='/'><a>Entrar</a></Link>
 
                     <span className={Styles.margemBotao}>
-                        <Botao texto={'Sign up for free'} url={'/'} isNovaAba={false} />
+                        <Botao texto={'Crie sua conta'} url={'/'} isNovaAba={false} />
                     </span>
                 </div>
             </div>

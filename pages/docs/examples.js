@@ -5,7 +5,7 @@ export default function Examples() {
     return (
         <section className={Styles.wrapper}>
             <div className={Styles.principal}>
-                <span className={StylesGeral.titulo}>Examples</span>
+                <span className={StylesGeral.titulo}>Exemplos</span>
             </div>
         </section>
     )

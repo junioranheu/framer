@@ -6,10 +6,10 @@ import Styles from '../../styles/docs.navbar3.module.css';
 export default function Navbar1() {
     const itens = [
         { item: 'Overview', url: '/developers' },
-        { item: 'Motion', url: '/motion' },
+        { item: 'Movimento', url: '/motion' },
         { item: 'Handshake', url: '/developers/handshake' },
-        { item: 'Guides', url: '/docs/guides' },
-        { item: 'API Documentation', url: '/docs' }
+        { item: 'Guias', url: '/docs/guides' },
+        { item: 'Documentação', url: '/docs' }
     ]
 
     const { asPath } = useRouter();

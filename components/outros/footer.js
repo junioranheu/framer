@@ -12,16 +12,16 @@ export default function Footer() {
                 <div className={Styles.sessao}>
                     <span className={Styles.tituloSessao}>Framer</span>
 
-                    <Link href='/'><a>Teams</a></Link>
-                    <Link href='/'><a>Pricing</a></Link>
-                    <Link href='/'><a>Showcasenew</a></Link>
+                    <Link href='/'><a>Time</a></Link>
+                    <Link href='/'><a>Preço</a></Link>
+                    <Link href='/'><a>Mostruário <span className='new'>novo</span></a></Link>
                     <Link href='/'><a>Blog</a></Link>
-                    <Link href='/'><a>Developers</a></Link>
-                    <Link href='/'><a>Updates</a></Link>
+                    <Link href='/'><a>Desenvolvedores</a></Link>
+                    <Link href='/'><a>Atualizações</a></Link>
                 </div>
 
                 <div className={Styles.sessao}>
-                    <span className={Styles.tituloSessao}>Platforms</span>
+                    <span className={Styles.tituloSessao}>Plataformas</span>
 
                     <Link href='/'><a>Web</a></Link>
                     <Link href='/'><a>macOS</a></Link>
@@ -31,16 +31,16 @@ export default function Footer() {
                 </div>
 
                 <div className={Styles.sessao}>
-                    <span className={Styles.tituloSessao}>Learn</span>
+                    <span className={Styles.tituloSessao}>Aprenda</span>
 
-                    <Link href='/'><a>Tutorials</a></Link>
-                    <Link href='/'><a>Examples</a></Link>
+                    <Link href='/'><a>Tutoriais</a></Link>
+                    <Link href='/'><a>Exemplos</a></Link>
                     <Link href='/'><a>Templates</a></Link>
-                    <Link href='/'><a>Sessions</a></Link>
+                    <Link href='/'><a>Ssessões</a></Link>
                 </div>
 
                 <div className={Styles.sessao}>
-                    <span className={Styles.tituloSessao}>About</span>
+                    <span className={Styles.tituloSessao}>Sobre</span>
 
                     <Link href='/'><a>Loupe</a></Link>
                     <Link href='/'><a>Community</a></Link>
@@ -50,11 +50,11 @@ export default function Footer() {
                 </div>
 
                 <div className={Styles.sessao}>
-                    <span className={Styles.tituloSessao}>Support</span>
+                    <span className={Styles.tituloSessao}>Suporte</span>
 
-                    <Link href='/'><a>Using Framer</a></Link>
-                    <Link href='/'><a>Accounts</a></Link>
-                    <Link href='/'><a>Contact</a></Link>
+                    <Link href='/'><a>Usando o Framer</a></Link>
+                    <Link href='/'><a>Contas</a></Link>
+                    <Link href='/'><a>Contato</a></Link>
                 </div>
             </div>
 
