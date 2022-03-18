@@ -9,17 +9,24 @@ export default function Introduction() {
         <Fragment>
             <section className={Styles.wrapper}>
                 <div className={Styles.principal}>
-                    <span className={StylesGeral.titulo}>Introdução</span>
+                    <div>
+                        <span className={StylesGeral.titulo}>Introdução</span>
+                        <span className={StylesGeral.tituloDesc}>Get started with Motion and learn by exploring interactive examples.</span>
+                    </div>
 
-                    <h1 style={{color: 'white', fontSize:'50px'}}>
-                        Get started with Motion and learn by exploring interactive examples.
+                    <div>
+                        <span className={StylesGeral.topico}>Visão geral</span>
+                        <span className={StylesGeral.texto}>
+                            Motion is a production-ready motion library for React from Framer. It brings declarative animations, effortless layout transitions and gestures while maintaining HTML and SVG semantics.
+                        </span>
+                    </div>
 
-                        #Overview
-                        Motion is a production-ready motion library for React from Framer. It brings declarative animations, effortless layout transitions and gestures while maintaining HTML and SVG semantics.
-
-                        #Animations
-                        Making animations is as easy as setting values on the animate prop. Motion will automatically generate an animation for you, and this can be overridden with the powerful transition prop.
-                    </h1>
+                    <div>
+                        <span className={StylesGeral.topico}>Animations</span>
+                        <span className={StylesGeral.texto}>
+                            Making animations is as easy as setting values on the animate prop. Motion will automatically generate an animation for you, and this can be overridden with the powerful transition prop.
+                        </span>
+                    </div>
                 </div>
             </section>
 
