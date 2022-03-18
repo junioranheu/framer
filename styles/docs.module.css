@@ -14,3 +14,35 @@
     width: 65%;
     height: 85%;
 }
+
+/* =-=-=-=-=-=-=-=-=-=-= Media queries =-=-=-=-=-=-=-=-=-=-= */
+@media (max-width:1439px) {
+    .wrapper {
+        /* background-color: red !important; */
+        width: 85%;
+    }
+
+    .principal {
+        /* background-color: blue !important; */
+        width: 80%;
+    }
+}
+
+@media (max-width:1039px) {
+    .wrapper {
+        /* background-color: red !important; */
+        width: 100%;
+    }
+
+    .principal {
+        /* background-color: blue !important; */
+        width: 85%;
+    }
+}
+
+@media (max-width:879px) {
+    .principal {
+        /* background-color: blue !important; */
+        width: 90%;
+    }
+}

@@ -13,7 +13,7 @@ export default function Sidebar({ itens, justify }) {
     }, [asPath]);
 
     // console.log(itens);
-
+  
     return (
         <section className={Styles.principal} style={{ justifyContent: justify }}>
             <div className={Styles.wrapper}>
