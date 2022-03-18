@@ -1,7 +1,7 @@
 function lista() {
     const itensSidebarDireita = [
         {
-            item: 'Nessa página<br/><br/>Overview', isPadding: true, subItens: [
+            item: 'Nessa página<br/><br/>Visão geral', isPadding: true, subItens: [
                 { item: 'Animações', url: '/docs/xxx' },
                 { item: 'Gestos', url: '/docs/xxx' },
                 { item: 'Variantes', url: '/docs/xxx' },
