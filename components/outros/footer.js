@@ -2,12 +2,33 @@ import { faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Styles from '../../styles/footer.module.css';
+import { modoDark } from '../../utils/context/modoDarkContext';
 
 export default function Footer() {
-    const [isDark, setIsDark] = useState(true);
+    useEffect(() => {
+        const isModoDark = modoDark.get().isModoDark;
+        // console.log(isModoDark);
 
+        if (isModoDark) {
+            // Modo dark;
+            setIsDark(true);
+            document.documentElement.style.setProperty('--preto', '#1A1A1A');
+            document.documentElement.style.setProperty('--super-preto', '#000000');
+            document.documentElement.style.setProperty('--branco', '#FFFFFF');
+            document.documentElement.style.setProperty('--cinza', '#313131');
+        } else {
+            // Modo light;
+            setIsDark(false);
+            document.documentElement.style.setProperty('--preto', '#FFFFFF');
+            document.documentElement.style.setProperty('--super-preto', '#ebe8e8');
+            document.documentElement.style.setProperty('--branco', '#1A1A1A');
+            document.documentElement.style.setProperty('--cinza', '#F2F2F2');
+        }
+    }, []);
+
+    const [isDark, setIsDark] = useState(true);
     function alterarModo() {
         // "Inverter" as cores para ativar o modo dark/light;
         if (isDark) {
@@ -25,6 +46,9 @@ export default function Footer() {
             document.documentElement.style.setProperty('--branco', '#FFFFFF');
             document.documentElement.style.setProperty('--cinza', '#313131');
         }
+
+        // Atualizar no localStorage;
+        modoDark.update({ isModoDark: !isDark });
     }
 
     return (

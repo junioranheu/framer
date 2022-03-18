@@ -1,1 +1,4 @@
 https://www.framer.com/docs/introduction/
+
+--
+responsividade atual

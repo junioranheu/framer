@@ -36,7 +36,7 @@ function lista() {
         },
 
         {
-            item: 'Recursos de movimento', isPadding: false, subItens: [
+            item: 'Recursos Motion', isPadding: false, subItens: [
                 { item: 'Acessibilidade', url: '/docs/accessibility' },
                 { item: 'Tamanho do bundle', url: '/docs/guide-reduce-bundle-size' },
                 { item: 'Guias de upgrade', url: '/docs/guide-upgrade' }
@@ -44,7 +44,7 @@ function lista() {
         },
 
         {
-            item: 'Programar com Framer', isPadding: false, subItens: [
+            item: 'Programação', isPadding: false, subItens: [
                 { item: 'Utilidades', url: '/docs/framer-utilities' },
                 { item: 'RenderTarget', url: '/docs/render-target' },
                 { item: 'Propriedades', url: '/docs/property-controls' }
