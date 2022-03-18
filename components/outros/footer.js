@@ -1,10 +1,32 @@
 import { faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
-import React from 'react';
+import React, { useState } from 'react';
 import Styles from '../../styles/footer.module.css';
 
 export default function Footer() {
+    const [isDark, setIsDark] = useState(true);
+
+    function alterarModo() {
+        // "Inverter" as cores para ativar o modo dark/light;
+        if (isDark) {
+            // Modo light;
+            setIsDark(false);
+            document.documentElement.style.setProperty('--preto', '#FFFFFF');
+            document.documentElement.style.setProperty('--super-preto', '#ebe8e8');
+            document.documentElement.style.setProperty('--branco', '#1A1A1A');
+            document.documentElement.style.setProperty('--cinza', '#F2F2F2');
+        } else {
+            // Modo dark;
+            setIsDark(true);
+            document.documentElement.style.setProperty('--preto', '#1A1A1A');
+            document.documentElement.style.setProperty('--super-preto', '#000000');
+            document.documentElement.style.setProperty('--branco', '#FFFFFF');
+            document.documentElement.style.setProperty('--cinza', '#313131');
+        }
+    }
+
     return (
         <footer className={Styles.footer}>
             {/* Principal */}
@@ -78,6 +100,10 @@ export default function Footer() {
                 {/* Direita */}
                 <div className={Styles.direita}>
                     <div className={Styles.icones}>
+                        <span title='Alternar modo dark/light'>
+                            <FontAwesomeIcon className='pointer' icon={(isDark ? faSun : faMoon)} size='lg' onClick={() => alterarModo()} />
+                        </span>
+
                         <span title='GitHub'>
                             <FontAwesomeIcon className='pointer' icon={faGithub} size='lg' onClick={() => { window.open('https://github.com/junioranheu', '_blank') }} />
                         </span>

@@ -11,7 +11,7 @@ export default function Navbar1() {
             {/* Para que eu não fique vendo a mensagem mudar a cada F5 em dev... */}
             {
                 process.env.NODE_ENV === 'development' ? (
-                    <span>Em desenvolvimento!</span>
+                    <span>Em desenvolvimento.</span>
                 ) : (
                     <span><FraseAleatoria />&nbsp;<EmojiAleatorio /></span>
                 )

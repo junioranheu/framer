@@ -38,7 +38,7 @@ function lista() {
         {
             item: 'Recursos de movimento', isPadding: false, subItens: [
                 { item: 'Acessibilidade', url: '/docs/accessibility' },
-                { item: 'Reduzir tamanho do bundle', url: '/docs/guide-reduce-bundle-size' },
+                { item: 'Tamanho do bundle', url: '/docs/guide-reduce-bundle-size' },
                 { item: 'Guias de upgrade', url: '/docs/guide-upgrade' }
             ]
         },

@@ -32,6 +32,7 @@
 }
 
 .navbar a {
+    color: var(--branco);
     font-size: 16px;
     font-weight: 500;
     line-height: 1;
@@ -48,20 +49,20 @@
 .navbar a:hover {
     opacity: 1;
     height: 40px;
-    background: #313131;
+    background: var(--cinza);
     transition: opacity .2s, color .2s;
     -webkit-transition: .2s, color .2s;
 }
 
-.iconeCorInvertida{
+.iconeCorInvertida {
     opacity: 1 !important;
 }
 
-.iconeCorInvertida:hover{
+.iconeCorInvertida:hover {
     opacity: 0.5 !important;
     background: transparent !important;
 }
 
-.margemBotao{
+.margemBotao {
     margin-left: 10px;
 }
