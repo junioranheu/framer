@@ -11,7 +11,7 @@ export default function Footer() {
         const isModoDark = (modoDark.get() ? modoDark.get().isModoDark : null);
         // console.log(isModoDark);
 
-        if (!isModoDark) {
+        if (isModoDark === null) {
             // console.log('isModoDark não definido');
             return false
         }
