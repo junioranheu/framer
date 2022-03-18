@@ -98,7 +98,11 @@ code div, code div span {
   background: transparent !important;
 }
 
-code button {
+code div button {
   cursor: pointer !important;
 }
 
+code div button svg {
+  fill: var(--branco) !important;
+  opacity: 0.7 !important;
+}
