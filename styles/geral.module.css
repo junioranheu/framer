@@ -61,11 +61,11 @@
   line-height: 1;
 
   margin-top: 2rem;
-  margin-bottom: 0.2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  margin-bottom: 0.3rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
   min-width: 100%;
   min-height: 3rem;
   border-radius: 16px;
@@ -74,7 +74,7 @@
 }
 
 .codigo code {
-  font-family: 'PTMono';
+  font-family: 'PTMono' !important;
 }
 
 /* Botão */
@@ -123,3 +123,4 @@
 .principal ::-webkit-scrollbar-thumb:hover {
   background: #313131;
 }
+

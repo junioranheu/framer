@@ -74,7 +74,7 @@ a {
   transition: opacity .2s;
 }
 
-.new{
+.new {
   position: relative;
   display: inline-block;
   margin-left: 8px;
@@ -90,3 +90,15 @@ a {
   -webkit-transform-origin: 0 100%;
   transform-origin: 0 100%;
 }
+
+/* =-=-=-=-=-=-=-=-=-=-=-=- react-code-blocks =-=-=-=-=-=-=-=-=-=-=-=- */
+/*  Remover o background dos blocos de código */
+.vUijS, .vUijS span {
+  /* color: pink !important; */
+  background: transparent !important;
+}
+
+.vUijS button {
+  cursor: pointer !important;
+}
+
