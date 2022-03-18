@@ -1,3 +1,4 @@
+import { loremIpsum } from 'lorem-ipsum';
 import React, { Fragment } from 'react';
 import Sidebar from '../../components/outros/sidebar';
 import Styles from '../../styles/docs.module.css';
@@ -11,20 +12,20 @@ export default function Introduction() {
                 <div className={Styles.principal}>
                     <div>
                         <span className={StylesGeral.titulo}>Introdução</span>
-                        <span className={StylesGeral.tituloDesc}>Get started with Motion and learn by exploring interactive examples.</span>
+                        <span className={StylesGeral.tituloDesc}>Comece por aqui, explorando exemplos interativos e de fácil entendimento.</span>
                     </div>
 
                     <div>
                         <span className={StylesGeral.topico}>Visão geral</span>
                         <span className={StylesGeral.texto}>
-                            Motion is a production-ready motion library for React from Framer. It brings declarative animations, effortless layout transitions and gestures while maintaining HTML and SVG semantics.
+                            {loremIpsum({ count: 5 })}
                         </span>
                     </div>
 
                     <div>
-                        <span className={StylesGeral.topico}>Animations</span>
+                        <span className={StylesGeral.topico}>Animações</span>
                         <span className={StylesGeral.texto}>
-                            Making animations is as easy as setting values on the animate prop. Motion will automatically generate an animation for you, and this can be overridden with the powerful transition prop.
+                            {loremIpsum({ count: 5 })}
                         </span>
                     </div>
                 </div>
