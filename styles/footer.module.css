@@ -122,3 +122,15 @@
         display: none !important;
     }
 }
+
+@media (max-width:500px) {
+    .principal {
+        /* background-color: blue; */
+        width: 95vw;
+    }
+
+    .sessao {
+        /* background-color: pink; */
+        flex: 0 0 25%;
+    }
+}

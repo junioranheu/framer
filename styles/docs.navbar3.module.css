@@ -22,3 +22,12 @@
     opacity: 0.5;
 }
 
+/* =-=-=-=-=-=-=-=-=-=-= Media queries =-=-=-=-=-=-=-=-=-=-= */
+@media (max-width:739px) {
+    .navbar a:nth-child(2),
+    .navbar a:nth-child(3),
+    .navbar a:nth-child(4) {
+        /* color: pink; */
+        display: none;
+    }
+}
