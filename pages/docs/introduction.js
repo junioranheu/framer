@@ -18,14 +18,29 @@ export default function Introduction() {
                     <div>
                         <span className={StylesGeral.topico}>Visão geral</span>
                         <span className={StylesGeral.texto}>
-                            {loremIpsum({ count: 5 })}
+                            {loremIpsum({ count: 3 })}
                         </span>
                     </div>
 
                     <div>
                         <span className={StylesGeral.topico}>Animações</span>
                         <span className={StylesGeral.texto}>
-                            {loremIpsum({ count: 5 })}
+                            {loremIpsum({ count: 3 })}
+                        </span>
+
+                        <div className={StylesGeral.codigo}>
+                            <pre>
+                                <code>
+                                    <div dangerouslySetInnerHTML={{ __html: '< motion.div animate={{ x: 100 }} />' }} />
+                                </code>
+                            </pre>
+                        </div>
+                    </div>
+
+                    <div>
+                        <span className={StylesGeral.topico}>Gestos</span>
+                        <span className={StylesGeral.texto}>
+                            {loremIpsum({ count: 2 })}
                         </span>
                     </div>
                 </div>

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import '../fonts/GTWalsheim.css';
 import '../fonts/NanumPenScript.css';
+import '../fonts/PTMono.css';
 import LayoutDoc from '../layouts/doc';
 import LayoutTeste from '../layouts/teste';
 import '../styles/globals.css';
