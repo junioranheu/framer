@@ -93,12 +93,12 @@ a {
 
 /* =-=-=-=-=-=-=-=-=-=-=-=- react-code-blocks =-=-=-=-=-=-=-=-=-=-=-=- */
 /*  Remover o background dos blocos de código */
-.vUijS, .vUijS span {
+code div, code div span {
   /* color: pink !important; */
   background: transparent !important;
 }
 
-.vUijS button {
+code button {
   cursor: pointer !important;
 }
 
