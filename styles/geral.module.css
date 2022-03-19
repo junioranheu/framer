@@ -30,6 +30,7 @@
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: -.036em;
+  cursor: pointer;
 
   margin-top: 2.5rem;
 }
@@ -40,8 +41,30 @@
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: -.036em;
+  cursor: pointer;
 
   margin-top: 2rem;
+}
+
+/* Mostrar o # no hover */
+.topico:hover:before, .subTopico:hover:before {
+  content: '#';
+  width: 0px;
+  font-weight: 500;
+
+  position: relative;
+
+  -webkit-transition: opacity .1s;
+  transition: opacity .1s;
+  opacity: 0.3;
+}
+
+.topico:hover:before {
+  left: -40px;
+}
+
+.subTopico:hover:before {
+  left: -25px;
 }
 
 .texto {
@@ -136,4 +159,15 @@
 
 .fundo ::-webkit-scrollbar-thumb:hover {
   background: #313131;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-= Media queries =-=-=-=-=-=-=-=-=-=-= */
+@media (max-width:879px) {
+  .topico, .subTopico {
+    cursor: auto;
+  }
+
+  .topico:before, .subTopico::before {
+    display: none;
+  }
 }

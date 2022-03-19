@@ -5,6 +5,7 @@
   --cinza: #313131;
   --cor-principal: #00BBFF;
   --cor-principal-escura: #0D6A8C;
+  --cor-border-hr: rgba(42, 42, 42, 100);
 }
 
 html, body {

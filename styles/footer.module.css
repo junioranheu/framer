@@ -9,7 +9,7 @@
     /* Fixar footer sempre embaixo */
     margin-top: auto;
 
-    border-top: 1px solid rgba(42, 42, 42, 100);
+    border-top: 1px solid var(--cor-border-hr);
 }
 
 /* =-=-=-=-=-=-=-=-=-=-=-=- Principal =-=-=-=-=-=-=-=-=-=-=-=- */
@@ -49,7 +49,7 @@
 
 /* =-=-=-=-=-=-=-=-=-=-=-=- Secundária =-=-=-=-=-=-=-=-=-=-=-=- */
 .secundaria {
-    border-top: 1px solid rgba(42, 42, 42, 100);
+    border-top: 1px solid var(--cor-border-hr); 
     width: 70vw;
     font-weight: 400;
     font-size: 14px;
