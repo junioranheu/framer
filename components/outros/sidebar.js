@@ -37,9 +37,15 @@ export default function Sidebar({ itens, isSidebarEsquerda, justify }) {
                 {itens.map((item, i) => (
                     <div className={Styles.divItem} key={i} >
                         {item.isTopico ? (
-                            <span className={`${Styles.item} ${i > 0 ? Styles.itemMargemTop : ''}`} key={i}>
-                                <div dangerouslySetInnerHTML={{ __html: item.titulo }} />
-                            </span>
+                            isSidebarEsquerda ? (
+                                <span className={`${Styles.item} ${(i > 0 && isSidebarEsquerda ? Styles.itemMargemTop : '')}`} key={i}>
+                                    {item.titulo}
+                                </span>
+                            ) : (
+                                <a key={i} onClick={() => handleScrollAnchor(item.id)} className={`opacidade-hover ${Styles.subItem}`}>
+                                    {item.titulo}
+                                </a>
+                            )
                         ) : (
                             // isSidebarEsquerda === true: significa que o item fica na sidebar da esquerda, o link é um <Link>
                             // se for else, o sidebar é da direita, ou seja, o link é um anchor (handleScrollAnchor(id));
@@ -50,7 +56,7 @@ export default function Sidebar({ itens, isSidebarEsquerda, justify }) {
                                     </a>
                                 </Link>
                             ) : (
-                                <a key={i} onClick={() => handleScrollAnchor(item.id)} className={`opacidade-hover ${Styles.subItem} ${Styles.itemPadding}`}>
+                                <a key={i} onClick={() => handleScrollAnchor(item.id)} className={`opacidade-hover ${Styles.subItem} ${Styles.subItemPadding}`}>
                                     {item.titulo}
                                 </a>
                             )
