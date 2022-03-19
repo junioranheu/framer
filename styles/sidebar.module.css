@@ -22,7 +22,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-}
+} 
 
 .item {
     /* Títulos */
@@ -51,7 +51,7 @@
     opacity: 0.7;
 }
 
-.itemPadding {
+.subItemPadding {
     /* color: pink !important; */
     padding-left: 15px;
 }
