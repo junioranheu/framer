@@ -5,14 +5,16 @@ function itens() {
             texto: '',
             isTopico: true,
             url: '',
-            codigo: ``
+            codigo: ``,
+            iframe: ''
         },
         {
             titulo: 'Animações',
             texto: '',
             isTopico: false,
             url: '',
-            codigo: `<motion.div animate={{ x: 100 }} />`
+            codigo: `<motion.div animate={{ x: 100 }} />`,
+            iframe: ''
         },
         {
             titulo: 'Gestos',
@@ -22,7 +24,8 @@ function itens() {
             codigo: `<motion.div
     drag="x"
     dragConstraints={{ left: -100, right: 100 }}
-/>`
+/>`,
+            iframe: ''
         },
         {
             titulo: 'Variantes',
@@ -38,14 +41,16 @@ return (
     <motion.li variants={item} />
     <motion.li variants={item} />
     </motion.ul>
-)`
+)`,
+            iframe: ''
         },
         {
             titulo: 'Renderização do lado do servidor',
             texto: '',
             isTopico: false,
             url: '',
-            codigo: `<motion.div initial={false} animate={{ x: 100 }} />`
+            codigo: `<motion.div initial={false} animate={{ x: 100 }} />`,
+            iframe: ''
         },
         {
             titulo: 'Animações baseadas em scroll',
@@ -55,35 +60,40 @@ return (
             codigo: `const x = useMotionValue(0)
 const opacity = useTransform(x, [-100, 0, 100], [0, 1, 0])
 
-return <motion.div drag="x" style={{ x, opacity }} />`
+return <motion.div drag="x" style={{ x, opacity }} />`,
+            iframe: ''
         },
         {
             titulo: 'Início rápido',
             texto: '',
             isTopico: true,
             url: '',
-            codigo: ``
+            codigo: ``,
+            iframe: ''
         },
         {
             titulo: 'Instalação',
             texto: '',
             isTopico: false,
             url: '',
-            codigo: `npm install framer-motion`
+            codigo: `npm install framer-motion`,
+            iframe: ''
         },
         {
             titulo: 'Importar',
             texto: '',
             isTopico: false,
             url: '',
-            codigo: `import { motion } from "framer-motion"`
+            codigo: `import { motion } from "framer-motion"`,
+            iframe: ''
         },
         {
             titulo: 'Tópicos',
             texto: '',
             isTopico: true,
             url: '',
-            codigo: ``
+            codigo: ``,
+            iframe: ''
         },
         {
             titulo: 'Animação',
@@ -91,8 +101,8 @@ return <motion.div drag="x" style={{ x, opacity }} />`
             isTopico: false,
             url: '',
             codigo: `const variants = {
-    hidden: { opacity: 0 },
-    visible: { opacity: 1 },
+    hidden: { opacity: 0 iframe: '' },
+    visible: { opacity: 1 iframe: '' },
 }
      
 return (
@@ -101,7 +111,8 @@ return (
         animate="visible"
         variants={variants}
     />
-)`
+)`,
+            iframe: ''
         },
         {
             titulo: 'Gestos',
@@ -113,12 +124,13 @@ return (
     dragConstraints={{ left: -100, right: 100 }}
     whileHover={{ scale: 1.1 }}
     whileTap={{ scale: 0.9 }}
-/>`
+/>`,
+            iframe: ''
         }
     ]
 
     // Criar ID para os itens;
-    const nome = 'docs_introduction_';
+    const nome = 'docs_introducao_';
     for (let i = 0; i < itens.length; i++) {
         itens[i].id = nome + (i + 1);
     }

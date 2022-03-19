@@ -14,10 +14,10 @@ export default function Exemplos() {
                         <span className={StylesGeral.titulo}>Introdução</span>
                         <span className={StylesGeral.tituloDesc}>Comece por aqui, explorando exemplos interativos e de fácil entendimento.</span>
                     </div>
-
+                
                     {/* Iterar os itens da página */}
                     {Itens().map((item, i) => (
-                        <BlocoTexto key={i} titulo={item.titulo} texto={item.texto} isTopico={item.isTopico} id={item.id} codigo={item.codigo} />
+                        <BlocoTexto key={i} titulo={item.titulo} texto={item.texto} isTopico={item.isTopico} id={item.id} codigo={item.codigo} iframe={item.iframe} />
                     ))}
                 </div>
             </section>

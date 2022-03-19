@@ -17,7 +17,7 @@ export default function Introduction() {
 
                     {/* Iterar os itens da página */}
                     {Itens().map((item, i) => (
-                        <BlocoTexto key={i} titulo={item.titulo} texto={item.texto} isTopico={item.isTopico} id={item.id} codigo={item.codigo} />
+                        <BlocoTexto key={i} titulo={item.titulo} texto={item.texto} isTopico={item.isTopico} id={item.id} codigo={item.codigo} iframe={item.iframe} />
                     ))}
                 </div>
             </section>

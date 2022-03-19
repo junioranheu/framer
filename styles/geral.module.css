@@ -80,6 +80,17 @@
   font-family: 'PTMono' !important;
 }
 
+.divIframeSandBox {
+  background-color: pink;
+  margin: 2.2rem 0;
+  height: 55vh;
+}
+
+.divIframeSandBox iframe {
+  width: 100%;
+  height: 100%;
+}
+
 /* Botão */
 .botao {
   position: relative;
