@@ -153,6 +153,7 @@
 
   cursor: pointer;
   background: var(--cor-roxo-card);
+width: 100%;
 
   display: flex;
   flex-flow: column nowrap;

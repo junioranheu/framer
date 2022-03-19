@@ -10,9 +10,9 @@ function itens() {
             texto:
                 <Card Svg={<Motion />}
                     titulo='Comece aqui'
-                    subtitulo='Aprenda mais sobre Learn more about Motion features and get started by exploring a few interactive examples.'
+                    subtitulo='Aprenda mais sobre os recursos e comece explorando alguns exemplos interativos.'
                     url='/docs/introducao'
-                />,           
+                />,
             isTopico: true,
             url: '',
             codigo: ``,
