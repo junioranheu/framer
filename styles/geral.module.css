@@ -1,15 +1,8 @@
-.principal {
+.fundo {
   background-color: var(--preto);
   width: 100vw;
 
   display: flex;
-}
-
-.principal span {
-  display: inline-flex;
-
-  text-rendering: optimizelegibility;
-  word-break: break-word;
 }
 
 /* Títulos e textos */
@@ -117,19 +110,19 @@
 }
 
 /* Scrollbar */
-.principal ::-webkit-scrollbar {
+.fundo ::-webkit-scrollbar {
   width: 6px;
 }
 
-.principal ::-webkit-scrollbar-track {
+.fundo ::-webkit-scrollbar-track {
   background: var(--preto);
   height: 6px !important;
 }
 
-.principal ::-webkit-scrollbar-thumb {
+.fundo ::-webkit-scrollbar-thumb {
   background: #262626;
 }
 
-.principal ::-webkit-scrollbar-thumb:hover {
+.fundo ::-webkit-scrollbar-thumb:hover {
   background: #313131;
 }

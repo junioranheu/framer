@@ -1,4 +1,3 @@
-import { loremIpsum } from 'lorem-ipsum';
 import React, { Fragment } from 'react';
 import BlocoTexto from '../../components/outros/blocoTexto.js';
 import Sidebar from '../../components/outros/sidebar';
@@ -19,7 +18,7 @@ export default function Introduction() {
 
                     {/* Iterar os itens da página */}
                     {Itens().map((item, i) => (
-                        <BlocoTexto key={i} titulo={item.titulo} texto={loremIpsum({ count: 3 })} isTopico={item.isTopico} id={item.id} codigo={item.codigo} />
+                        <BlocoTexto key={i} titulo={item.titulo} texto={item.texto} isTopico={item.isTopico} id={item.id} codigo={item.codigo} />
                     ))}
                 </div>
             </section>

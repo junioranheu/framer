@@ -10,7 +10,7 @@ export default function Teste({ Component, pageProps }) {
                     Esse é um layout padrão de teste!
                 </section>
 
-                <section className={Styles.principal}>
+                <section className={Styles.fundo}>
                     <Component {...pageProps} />
                 </section>
 

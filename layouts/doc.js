@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import { v4 as Uuidv4 } from 'uuid';
 import Navbar1 from '../components/outros/docs.navbar1';
 import Navbar2 from '../components/outros/docs.navbar2';
 import Navbar3 from '../components/outros/docs.navbar3';
@@ -16,8 +15,8 @@ export default function Doc({ Component, pageProps }) {
                 <Navbar2 />
                 <Navbar3 />
 
-                <section className={Styles.principal}>
-                    <Sidebar key={Uuidv4()} itens={ItensSidebarEsquerda()} isSidebarEsquerda={true} justify={'right'} />
+                <section className={Styles.fundo}>
+                    <Sidebar itens={ItensSidebarEsquerda()} isSidebarEsquerda={true} justify={'right'} />
                     <Component {...pageProps} />
                 </section>
 

@@ -17,6 +17,13 @@
     height: 85%;
 }
 
+.principal span {
+    display: inline-flex;
+
+    text-rendering: optimizelegibility;
+    word-break: break-word;
+}
+
 /* =-=-=-=-=-=-=-=-=-=-= Media queries =-=-=-=-=-=-=-=-=-=-= */
 @media (max-width:1439px) {
     .wrapper {

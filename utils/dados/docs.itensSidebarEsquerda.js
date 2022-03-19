@@ -40,7 +40,7 @@ function itens() {
     ]
 
     // Criar ID para os itens;
-    const nome = 'divDocsItensSidebarEsquerda';
+    const nome = 'docs_itens_sidebar_esquerda_';
     for (let i = 0; i < itens.length; i++) {
         itens[i].id = nome + (i + 1);
     }
