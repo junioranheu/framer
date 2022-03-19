@@ -1,9 +1,9 @@
 import StylesGeral from '../../styles/geral.module.css';
 import BlocoCodigo from './blocoCodigo';
 
-export default function BlocoTexto({ titulo, texto, isTopico, codigo }) {
+export default function BlocoTexto({ titulo, texto, isTopico, id, codigo }) {
     return (
-        <div>
+        <div id={id}>
             <span className={(isTopico ? StylesGeral.topico : StylesGeral.subTopico)}>{titulo}</span>
             <span className={StylesGeral.texto}>{texto}</span>
 

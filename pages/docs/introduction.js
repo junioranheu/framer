@@ -19,7 +19,7 @@ export default function Introduction() {
 
                     {/* Iterar os itens da página */}
                     {Itens().map((item, i) => (
-                        <BlocoTexto key={i} titulo={item.titulo} texto={loremIpsum({ count: 3 })} isTopico={item.isTopico} codigo={item.codigo} />
+                        <BlocoTexto key={i} titulo={item.titulo} texto={loremIpsum({ count: 3 })} isTopico={item.isTopico} id={item.id} codigo={item.codigo} />
                     ))}
                 </div>
             </section>

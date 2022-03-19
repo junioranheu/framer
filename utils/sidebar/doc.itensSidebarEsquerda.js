@@ -1,14 +1,14 @@
 function lista() {
     const itensSidebarEsquerda = [
         {
-            item: 'Guia de iniciação', isPadding: false, subItens: [
+            item: 'Guia de iniciação', isSidebarDireita: false, subItens: [
                 { item: 'Introdução', url: '/docs/introduction' },
                 { item: 'Exemplos', url: '/docs/examples' }
             ]
         },
 
         {
-            item: 'API', isPadding: false, subItens: [
+            item: 'API', isSidebarDireita: false, subItens: [
                 { item: 'Animação', url: '/docs/animation' },
                 { item: 'Transição', url: '/docs/transition' },
                 { item: 'Gestos', url: '/docs/gestures' },
@@ -17,7 +17,7 @@ function lista() {
         },
 
         {
-            item: 'Componentes', isPadding: false, subItens: [
+            item: 'Componentes', isSidebarDireita: false, subItens: [
                 { item: 'Motion', url: '/docs/motion' },
                 { item: 'AnimatePresence', url: '/docs/animate-presence' },
                 { item: 'LayoutGroup', url: '/docs/layout-group' },
@@ -28,7 +28,7 @@ function lista() {
         },
 
         {
-            item: '3D', isPadding: false, subItens: [
+            item: '3D', isSidebarDireita: false, subItens: [
                 { item: 'Introdução', url: '/docs/three-introduction' },
                 { item: 'LayoutCamera', url: '/docs/layoutcamera' },
                 { item: 'MotionCanvas', url: '/docs/motioncanvas' }
@@ -36,7 +36,7 @@ function lista() {
         },
 
         {
-            item: 'Recursos Motion', isPadding: false, subItens: [
+            item: 'Recursos Motion', isSidebarDireita: false, subItens: [
                 { item: 'Acessibilidade', url: '/docs/accessibility' },
                 { item: 'Tamanho do bundle', url: '/docs/guide-reduce-bundle-size' },
                 { item: 'Guias de upgrade', url: '/docs/guide-upgrade' }
@@ -44,7 +44,7 @@ function lista() {
         },
 
         {
-            item: 'Programação', isPadding: false, subItens: [
+            item: 'Programação', isSidebarDireita: false, subItens: [
                 { item: 'Utilidades', url: '/docs/framer-utilities' },
                 { item: 'RenderTarget', url: '/docs/render-target' },
                 { item: 'Propriedades', url: '/docs/property-controls' }
@@ -52,7 +52,7 @@ function lista() {
         },
 
         {
-            item: 'Comunidade', isPadding: false, subItens: [
+            item: 'Comunidade', isSidebarDireita: false, subItens: [
                 { item: 'GitHub', url: 'https://github.com/junioranheu/' },
                 { item: 'Discord', url: 'https://discord.gg/RdKDenAu8d' }
             ]

@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 import Styles from '../../styles/sidebar.module.css';
 
 export default function Sidebar({ itens, justify }) {
+    // console.log(itens);
     const { asPath } = useRouter();
     const [urlAtual, setUrlAtual] = useState('');
 
@@ -12,8 +13,12 @@ export default function Sidebar({ itens, justify }) {
         setUrlAtual(asPath);
     }, [asPath]);
 
-    // console.log(itens);
-  
+    function handleScrollAnchor(url) {
+        console.log(url);
+        var element = document.getElementById(url);
+        // element.scrollIntoView();
+    }
+
     return (
         <section className={Styles.principal} style={{ justifyContent: justify }}>
             <div className={Styles.wrapper}>
@@ -25,11 +30,18 @@ export default function Sidebar({ itens, justify }) {
 
                         {item.subItens.map((subItem, i2) => (
                             subItem.url && (
-                                <Link key={i2} href={subItem.url}>
-                                    <a className={`opacidade-hover ${Styles.subItem} ${(urlAtual === subItem.url ? 'cor-principal' : '')} ${(item.isPadding ? Styles.itemPadding : '')}`}>
+                                // isSidebarDireita === true: significa que a sidebar fica na direita, e os links devem ser scroll anchor;
+                                item.isSidebarDireita ? (
+                                    <a key={i2} onClick={() => handleScrollAnchor(subItem.url)} className={`opacidade-hover ${Styles.subItem} ${Styles.itemPadding}`}>
                                         {subItem.item}
                                     </a>
-                                </Link>
+                                ) : (
+                                    <Link key={i2} href={subItem.url}>
+                                        <a className={`opacidade-hover ${Styles.subItem} ${(urlAtual === subItem.url ? 'cor-principal' : '')}`}>
+                                            {subItem.item}
+                                        </a>
+                                    </Link>
+                                )
                             )
                         ))}
                     </div>

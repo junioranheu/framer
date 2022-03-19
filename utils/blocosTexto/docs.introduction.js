@@ -1,14 +1,16 @@
+import { v4 as Uuidv4 } from 'uuid';
+
 function itens() {
     const itens = [
-        { titulo: 'Visão geral', texto: '', isTopico: true, codigo: `` },
-        { titulo: 'Animações', texto: '', isTopico: false, codigo: `<motion.div animate={{ x: 100 }} />` },
+        { titulo: 'Visão geral', texto: '', isTopico: true, id: `#${Uuidv4()}`, codigo: `` },
+        { titulo: 'Animações', texto: '', isTopico: false, id: `#${Uuidv4()}`, codigo: `<motion.div animate={{ x: 100 }} />` },
         {
-            titulo: 'Gestos', texto: '', isTopico: false, codigo: `<motion.div
+            titulo: 'Gestos', texto: '', isTopico: false, id: `#${Uuidv4()}`, codigo: `<motion.div
     drag="x"
     dragConstraints={{ left: -100, right: 100 }}
 />` },
         {
-            titulo: 'Variantes', texto: '', isTopico: false, codigo: `const list = { hidden: { opacity: 0 } }
+            titulo: 'Variantes', texto: '', isTopico: false, id: `#${Uuidv4()}`, codigo: `const list = { hidden: { opacity: 0 } }
 const item = { hidden: { x: -10, opacity: 0 } }
 
 return (
@@ -18,20 +20,20 @@ return (
     <motion.li variants={item} />
     </motion.ul>
 )` },
-        { titulo: 'Renderização do lado do servidor', texto: '', isTopico: false, codigo: `<motion.div initial={false} animate={{ x: 100 }} />` },
+        { titulo: 'Renderização do lado do servidor', texto: '', isTopico: false, id: `#${Uuidv4()}`, codigo: `<motion.div initial={false} animate={{ x: 100 }} />` },
         {
-            titulo: 'Animações baseadas em scroll', texto: '', isTopico: false, codigo: `const x = useMotionValue(0)
+            titulo: 'Animações baseadas em scroll', texto: '', isTopico: false, id: `#${Uuidv4()}`, codigo: `const x = useMotionValue(0)
 const opacity = useTransform(x, [-100, 0, 100], [0, 1, 0])
 
 return <motion.div drag="x" style={{ x, opacity }} />` },
 
-        { titulo: 'Início rápido', texto: '', isTopico: true, codigo: `` },
-        { titulo: 'Instalação', texto: '', isTopico: false, codigo: `npm install framer-motion` },
-        { titulo: 'Importar', texto: '', isTopico: false, codigo: `import { motion } from "framer-motion"` },
+        { titulo: 'Início rápido', texto: '', isTopico: true, id: `#${Uuidv4()}`, codigo: `` },
+        { titulo: 'Instalação', texto: '', isTopico: false, id: `#${Uuidv4()}`, codigo: `npm install framer-motion` },
+        { titulo: 'Importar', texto: '', isTopico: false, id: `#${Uuidv4()}`, codigo: `import { motion } from "framer-motion"` },
 
-        { titulo: 'Tópicos', texto: '', isTopico: true, codigo: `` },
+        { titulo: 'Tópicos', texto: '', isTopico: true, id: `#${Uuidv4()}`, codigo: `` },
         {
-            titulo: 'Animação', texto: '', isTopico: false, codigo: `const variants = {
+            titulo: 'Animação', texto: '', isTopico: false, id: `#${Uuidv4()}`, codigo: `const variants = {
     hidden: { opacity: 0 },
     visible: { opacity: 1 },
 }
@@ -44,7 +46,7 @@ return (
     />
 )` },
         {
-            titulo: 'Gestos', texto: '', isTopico: false, codigo: `<motion.div
+            titulo: 'Gestos', texto: '', isTopico: false, id: `#${Uuidv4()}`, codigo: `<motion.div
     drag="x"
     dragConstraints={{ left: -100, right: 100 }}
     whileHover={{ scale: 1.1 }}
