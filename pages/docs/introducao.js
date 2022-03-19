@@ -1,10 +1,9 @@
 import React, { Fragment } from 'react';
 import BlocoTexto from '../../components/outros/blocoTexto.js';
-import Sidebar from '../../components/outros/sidebar';
+import Sidebar from '../../components/outros/sidebar.js';
 import Styles from '../../styles/docs.module.css';
 import StylesGeral from '../../styles/geral.module.css';
-import ItensSidebarDireita from '../../utils/dados/docs.introduction';
-import Itens from '../../utils/dados/docs.introduction.js';
+import Itens from '../../utils/dados/docs.introducao.js';
 
 export default function Introduction() {
     return (
@@ -23,7 +22,7 @@ export default function Introduction() {
                 </div>
             </section>
 
-            <Sidebar itens={ItensSidebarDireita()} isSidebarEsquerda={false} justify={'center'} />
+            <Sidebar itens={Itens()} isSidebarEsquerda={false} justify={'center'} />
         </Fragment>
     )
 }

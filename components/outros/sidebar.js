@@ -24,6 +24,16 @@ export default function Sidebar({ itens, isSidebarEsquerda, justify }) {
     return (
         <section className={Styles.principal} style={{ justifyContent: justify }}>
             <div className={Styles.wrapper}>
+                {/* Se for esquerda, exiba a mensagem padrão */}
+                {!isSidebarEsquerda && (
+                    <div className={Styles.divItem}>
+                        <span className={Styles.item}>
+                            Nessa página
+                        </span>
+                    </div>
+                )}
+
+                {/* Iterar itens */}
                 {itens.map((item, i) => (
                     <div className={Styles.divItem} key={i} >
                         {item.isTopico ? (
@@ -48,6 +58,6 @@ export default function Sidebar({ itens, isSidebarEsquerda, justify }) {
                     </div>
                 ))}
             </div>
-        </section>
+        </section >
     )
 }
