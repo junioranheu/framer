@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import Styles from '../../styles/sidebar.module.css';
 
-export default function Sidebar({ itens, justify }) {
+export default function Sidebar({ itens, isSidebarEsquerda, justify }) {
     // console.log(itens);
     const { asPath } = useRouter();
     const [urlAtual, setUrlAtual] = useState('');
@@ -13,10 +13,12 @@ export default function Sidebar({ itens, justify }) {
         setUrlAtual(asPath);
     }, [asPath]);
 
-    function handleScrollAnchor(url) {
-        console.log(url);
-        var element = document.getElementById(url);
-        // element.scrollIntoView();
+    function handleScrollAnchor(id) {
+        // console.log(id);
+        var elemento = document.getElementById(id);
+
+        // https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView;
+        elemento.scrollIntoView({ behavior: 'smooth' });
     }
 
     return (
@@ -24,26 +26,25 @@ export default function Sidebar({ itens, justify }) {
             <div className={Styles.wrapper}>
                 {itens.map((item, i) => (
                     <div className={Styles.divItem} key={i} >
-                        <span className={`${Styles.item} ${i > 0 ? Styles.itemMargemTop : ''}`} key={i}>
-                            <div dangerouslySetInnerHTML={{ __html: item.item }} />
-                        </span>
-
-                        {item.subItens.map((subItem, i2) => (
-                            subItem.url && (
-                                // isSidebarDireita === true: significa que a sidebar fica na direita, e os links devem ser scroll anchor;
-                                item.isSidebarDireita ? (
-                                    <a key={i2} onClick={() => handleScrollAnchor(subItem.url)} className={`opacidade-hover ${Styles.subItem} ${Styles.itemPadding}`}>
-                                        {subItem.item}
+                        {item.isTopico ? (
+                            <span className={`${Styles.item} ${i > 0 ? Styles.itemMargemTop : ''}`} key={i}>
+                                <div dangerouslySetInnerHTML={{ __html: item.titulo }} />
+                            </span>
+                        ) : (
+                            // isSidebarEsquerda === true: significa que o item fica na sidebar da esquerda, o link é um <Link>
+                            // se for else, o sidebar é da direita, ou seja, o link é um anchor (handleScrollAnchor(id));
+                            isSidebarEsquerda ? (
+                                <Link key={i} href={item.url}>
+                                    <a className={`opacidade-hover ${Styles.subItem} ${(urlAtual === item.url ? 'cor-principal' : '')}`}>
+                                        {item.titulo}
                                     </a>
-                                ) : (
-                                    <Link key={i2} href={subItem.url}>
-                                        <a className={`opacidade-hover ${Styles.subItem} ${(urlAtual === subItem.url ? 'cor-principal' : '')}`}>
-                                            {subItem.item}
-                                        </a>
-                                    </Link>
-                                )
+                                </Link>
+                            ) : (
+                                <a key={i} onClick={() => handleScrollAnchor(item.id)} className={`opacidade-hover ${Styles.subItem} ${Styles.itemPadding}`}>
+                                    {item.titulo}
+                                </a>
                             )
-                        ))}
+                        )}
                     </div>
                 ))}
             </div>

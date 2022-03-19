@@ -4,8 +4,8 @@ import BlocoTexto from '../../components/outros/blocoTexto.js';
 import Sidebar from '../../components/outros/sidebar';
 import Styles from '../../styles/docs.module.css';
 import StylesGeral from '../../styles/geral.module.css';
-import Itens from '../../utils/blocosTexto/docs.introduction.js';
-import ItensSidebarDireita from '../../utils/sidebar/doc.itensSidebarDireita.js';
+import ItensSidebarDireita from '../../utils/dados/docs.introduction';
+import Itens from '../../utils/dados/docs.introduction.js';
 
 export default function Introduction() {
     return (
@@ -24,7 +24,7 @@ export default function Introduction() {
                 </div>
             </section>
 
-            <Sidebar itens={ItensSidebarDireita()} justify={'center'} />
+            <Sidebar itens={ItensSidebarDireita()} isSidebarEsquerda={false} justify={'center'} />
         </Fragment>
     )
 }
