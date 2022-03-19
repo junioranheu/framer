@@ -36,30 +36,24 @@ export default function Sidebar({ itens, isSidebarEsquerda, justify }) {
                 {/* Iterar itens */}
                 {itens.map((item, i) => (
                     <div className={Styles.divItem} key={i} >
-                        {item.isTopico ? (
-                            isSidebarEsquerda ? (
+                        {/* isSidebarEsquerda === true: significa que o item fica na sidebar da esquerda, o link deve ser um <Link> para redirecionar;
+                            se for else, o sidebar é da direita, ou seja, o link é um anchor (handleScrollAnchor(id)); */}
+                        {isSidebarEsquerda ? (
+                            item.isTopico ? (
                                 <span className={`${Styles.item} ${(i > 0 && isSidebarEsquerda ? Styles.itemMargemTop : '')}`} key={i}>
                                     {item.titulo}
                                 </span>
                             ) : (
-                                <a key={i} onClick={() => handleScrollAnchor(item.id)} className={`opacidade-hover ${Styles.subItem}`}>
-                                    {item.titulo}
-                                </a>
-                            )
-                        ) : (
-                            // isSidebarEsquerda === true: significa que o item fica na sidebar da esquerda, o link é um <Link>
-                            // se for else, o sidebar é da direita, ou seja, o link é um anchor (handleScrollAnchor(id));
-                            isSidebarEsquerda ? (
                                 <Link key={i} href={item.url}>
                                     <a className={`opacidade-hover ${Styles.subItem} ${(urlAtual === item.url ? 'cor-principal' : '')}`}>
                                         {item.titulo}
                                     </a>
                                 </Link>
-                            ) : (
-                                <a key={i} onClick={() => handleScrollAnchor(item.id)} className={`opacidade-hover ${Styles.subItem} ${Styles.subItemPadding}`}>
-                                    {item.titulo}
-                                </a>
                             )
+                        ) : (
+                            <a key={i} onClick={() => handleScrollAnchor(item.id)} className={`opacidade-hover ${Styles.subItem} ${(item.isTopico ? '' : Styles.subItemPadding)}`}>
+                                {item.titulo}
+                            </a>
                         )}
                     </div>
                 ))}
