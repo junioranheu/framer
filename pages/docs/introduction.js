@@ -17,6 +17,7 @@ export default function Introduction() {
                         <span className={StylesGeral.tituloDesc}>Comece por aqui, explorando exemplos interativos e de fácil entendimento.</span>
                     </div>
 
+                    {/* Iterar os itens da página */}
                     {Itens().map((item, i) => (
                         <BlocoTexto key={i} titulo={item.titulo} texto={loremIpsum({ count: 3 })} isTopico={item.isTopico} codigo={item.codigo} />
                     ))}
