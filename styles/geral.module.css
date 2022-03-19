@@ -143,6 +143,57 @@
   opacity: 0.5;
 }
 
+/* Card */
+.card {
+  margin-top: 1rem;
+  padding: 2rem;
+  border-radius: 16px;
+  overflow: hidden;
+  will-change: transform;
+
+  cursor: pointer;
+  background: var(--cor-roxo-card);
+
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  transition: box-shadow .2s, transform .2s, -webkit-box-shadow .2s, -webkit-transform .2s;
+}
+
+.cardDivSvg {
+  display: flex;
+  justify-content: center;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+}
+
+.cardDivTexto {
+  /* background-color: pink; */
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardTitulo {
+  color: var(--branco);
+  font-size: 1.6rem;
+  letter-spacing: -.032em;
+  line-height: 1.24;
+  font-weight: 600;
+}
+
+.cardSubtitulo {
+  color: var(--branco);
+  font-size: 1.2rem;
+  letter-spacing: -.012em;
+  line-height: 1.5;
+  opacity: 0.9;
+  font-weight: 500;
+}
+
 /* Scrollbar */
 .fundo ::-webkit-scrollbar {
   width: 6px;

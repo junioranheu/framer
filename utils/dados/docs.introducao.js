@@ -118,7 +118,7 @@ return (
             titulo: 'Gestos',
             texto: '',
             isTopico: false,
-            url: '',
+            url: '', 
             codigo: `<motion.div
     drag="x"
     dragConstraints={{ left: -100, right: 100 }}

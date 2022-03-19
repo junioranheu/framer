@@ -3,7 +3,7 @@ import BlocoTexto from '../../components/outros/blocoTexto.js';
 import Sidebar from '../../components/outros/sidebar.js';
 import Styles from '../../styles/docs.module.css';
 import StylesGeral from '../../styles/geral.module.css';
-import Itens from '../../utils/dados/docs.exemplos';
+import Itens from '../../utils/dados/docs.exemplos.js';
 
 export default function Exemplos() {
     return (

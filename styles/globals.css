@@ -6,6 +6,7 @@
   --cor-principal: #00BBFF;
   --cor-principal-escura: #0D6A8C;
   --cor-border-hr: rgba(42, 42, 42, 100);
+  --cor-roxo-card: linear-gradient(to bottom right, hsl(259, 100%, 71%), hsl(257, 80%, 60%));
 }
 
 html, body {
