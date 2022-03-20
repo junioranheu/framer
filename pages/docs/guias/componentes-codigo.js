@@ -3,10 +3,10 @@ import BlocoConteudo from '../../../components/outros/blocoConteudo.js';
 import Sidebar from '../../../components/outros/sidebar.js';
 import Styles from '../../../styles/docs.module.css';
 import StylesGeral from '../../../styles/geral.module.css';
-import Itens from '../../../utils/dados/guias.index.js';
+import Itens from '../../../utils/dados/guias.componentesCodigo.js';
 import ItensSidebarEsquerda from '../../../utils/dados/guias.itensSidebarEsquerda.js';
 
-export default function Index() {
+export default function ComponentesCodigo() {
     return (
         <Fragment>
             <Sidebar itens={ItensSidebarEsquerda()} isSidebarEsquerda={true} />
@@ -14,8 +14,8 @@ export default function Index() {
             <section className={Styles.wrapper}>
                 <div className={Styles.principal}>
                     <div>
-                        <span className={StylesGeral.titulo}>Trabalhando com os recursos</span>
-                        <span className={StylesGeral.tituloDesc}>Extenda seus protótipos com os nossos recursos, componentes e etc.</span>
+                        <span className={StylesGeral.titulo}>Componentes de código</span>
+                        <span className={StylesGeral.tituloDesc}>Crie componentes super flexiveis em React diretamente em nossa framework.</span>
                     </div>
 
                     {/* Iterar os itens da página */}

@@ -13,7 +13,8 @@ export const MyComponent = () => (
     transition={{ duration: 0.5 }}
     />
 )`,
-            iframe: 'https://codesandbox.io/embed/framer-motion-simple-animation-fz7cz?view=preview&codemirror=1&hidedevtools=1&hidenavigation=1&theme=dark'
+            iframe: 'https://codesandbox.io/embed/framer-motion-simple-animation-fz7cz?view=preview&codemirror=1&hidedevtools=1&hidenavigation=1&theme=dark', 
+            imagem: ''
         },
         {
             titulo: 'Keyframes',
@@ -31,7 +32,8 @@ export const MyComponent = () => (
     }}
     />
 )`,
-            iframe: 'https://codesandbox.io/embed/framer-motion-keyframes-ekks8?view=preview&codemirror=1&hidedevtools=1&hidenavigation=1&theme=dark'
+            iframe: 'https://codesandbox.io/embed/framer-motion-keyframes-ekks8?view=preview&codemirror=1&hidedevtools=1&hidenavigation=1&theme=dark',
+             imagem: ''
         },
         {
             titulo: 'Variantes',
@@ -58,7 +60,8 @@ export const MyComponent = () => {
     </motion.nav>
     )
 }`,
-            iframe: ''
+            iframe: '', 
+            imagem: ''
         },
         {
             titulo: 'Animações',
@@ -73,7 +76,8 @@ export const MyComponent = () => (
         whileTap={{ scale: 0.9 }}
     />
 )`,
-            iframe: 'https://codesandbox.io/embed/framer-motion-gesture-animations-8c5y3?view=preview&codemirror=1&hidedevtools=1&hidenavigation=1&theme=dark'
+            iframe: 'https://codesandbox.io/embed/framer-motion-gesture-animations-8c5y3?view=preview&codemirror=1&hidedevtools=1&hidenavigation=1&theme=dark', 
+            imagem: ''
         },
         {
             titulo: 'Arrastar',
@@ -93,7 +97,8 @@ export const MyComponent = () => (
         }}
     />
 )`,
-            iframe: 'https://codesandbox.io/embed/framer-motion-drag-with-constraints-pjn6t?view=preview&codemirror=1&hidedevtools=1&hidenavigation=1&theme=dark'
+            iframe: 'https://codesandbox.io/embed/framer-motion-drag-with-constraints-pjn6t?view=preview&codemirror=1&hidedevtools=1&hidenavigation=1&theme=dark', 
+            imagem: ''
         },
         {
             titulo: 'MotionValues',
@@ -122,7 +127,8 @@ export const MyComponent = () => {
         </motion.div>
     )
 }`,
-            iframe: 'https://codesandbox.io/embed/framer-motion-path-drawing-drag-and-usetransform-jnqk2?view=preview&codemirror=1&hidedevtools=1&hidenavigation=1&theme=dark'
+            iframe: 'https://codesandbox.io/embed/framer-motion-path-drawing-drag-and-usetransform-jnqk2?view=preview&codemirror=1&hidedevtools=1&hidenavigation=1&theme=dark', 
+            imagem: ''
         },
         {
             titulo: 'Animações acionadas por rolagem',
@@ -134,7 +140,8 @@ export const MyComponent = () => {
     whileInView={{ opacity: 1 }}
     viewport={{ once: true }}
 />`,
-            iframe: 'https://codesandbox.io/embed/framer-motion-5-3-scroll-triggered-animations-2hbg5?fontsize=14&hidenavigation=1&theme=dark&view=preview&codemirror=1&hidedevtools=1'
+            iframe: 'https://codesandbox.io/embed/framer-motion-5-3-scroll-triggered-animations-2hbg5?fontsize=14&hidenavigation=1&theme=dark&view=preview&codemirror=1&hidedevtools=1', 
+            imagem: ''
         },
         {
             titulo: 'Animações com links de rolagem',
@@ -153,55 +160,17 @@ export const CircleIndicator = () => {
     />
     )
 }`,
-            iframe: 'https://codesandbox.io/embed/framer-motion-viewport-scroll-and-svg-path-animation-mwi35?view=preview&codemirror=1&hidedevtools=1&hidenavigation=1&theme=dark'
+            iframe: 'https://codesandbox.io/embed/framer-motion-viewport-scroll-and-svg-path-animation-mwi35?view=preview&codemirror=1&hidedevtools=1&hidenavigation=1&theme=dark', 
+            imagem: ''
         },
-        // {
-        //     titulo: 'Animações de saída',
-        //     texto: '',
-        //     isTopico: true,
-        //     url: '',
-        //     codigo: `<motion.div animate={{ x: 100 }} />`,
-        //     iframe: ''
-        // },
-        // {
-        //     titulo: 'Layout',
-        //     texto: '',
-        //     isTopico: true,
-        //     url: '',
-        //     codigo: `<motion.div animate={{ x: 100 }} />`,
-        //     iframe: ''
-        // },
-        // {
-        //     titulo: 'Layout compartilhado',
-        //     texto: '',
-        //     isTopico: true,
-        //     url: '',
-        //     codigo: `<motion.div animate={{ x: 100 }} />`,
-        //     iframe: ''
-        // },
-        // {
-        //     titulo: 'Linha de contorno',
-        //     texto: '',
-        //     isTopico: true,
-        //     url: '',
-        //     codigo: `<motion.div animate={{ x: 100 }} />`,
-        //     iframe: ''
-        // },
-        // {
-        //     titulo: 'Caminho',
-        //     texto: '',
-        //     isTopico: true,
-        //     url: '',
-        //     codigo: `<motion.div animate={{ x: 100 }} />`,
-        //     iframe: ''
-        // },
         {
             titulo: 'Outros',
             texto: ' ',
             isTopico: true,
             url: '',
             codigo: ``,
-            iframe: ''
+            iframe: '', 
+            imagem: ''
         },
         {
             titulo: 'Padrões de UI',
@@ -209,7 +178,8 @@ export const CircleIndicator = () => {
             isTopico: false,
             url: '',
             codigo: ``,
-            iframe: ''
+            iframe: '', 
+            imagem: ''
         },
         {
             titulo: 'Técnicas',
@@ -217,7 +187,8 @@ export const CircleIndicator = () => {
             isTopico: false,
             url: '',
             codigo: ``,
-            iframe: ''
+            iframe: '', 
+            imagem: ''
         },
         {
             titulo: 'Biblioteca de terceiros',
@@ -225,6 +196,8 @@ export const CircleIndicator = () => {
             isTopico: false,
             url: '',
             codigo: ``,
+            iframe: '', 
+            imagem: ''
         }
     ]
 

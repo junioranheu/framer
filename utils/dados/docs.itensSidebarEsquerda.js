@@ -1,42 +1,42 @@
 
 function itens() {
     const itens = [
-        { titulo: 'Guia de iniciação', texto: '', isTopico: true, url: '', codigo: ``, iframe: '' },
-        { titulo: 'Introdução', texto: '', isTopico: false, url: '/docs/introducao', codigo: ``, iframe: '' },
-        { titulo: 'Exemplos', texto: '', isTopico: false, url: '/docs/exemplos', codigo: ``, iframe: '' },
+        { titulo: 'Guia de iniciação', texto: '', isTopico: true, url: '', codigo: ``, iframe: '', imagem: '' },
+        { titulo: 'Introdução', texto: '', isTopico: false, url: '/docs/introducao', codigo: ``, iframe: '', imagem: '' },
+        { titulo: 'Exemplos', texto: '', isTopico: false, url: '/docs/exemplos', codigo: ``, iframe: '', imagem: '' },
 
-        { titulo: 'API', texto: '', isTopico: true, url: '', codigo: ``, iframe: '' },
-        { titulo: 'Animação', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '' },
-        { titulo: 'Transição', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '' },
-        { titulo: 'Gestos', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '' },
-        { titulo: 'Utilidades', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '' },
+        { titulo: 'API', texto: '', isTopico: true, url: '', codigo: ``, iframe: '', imagem: '' },
+        { titulo: 'Animação', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '', imagem: '' },
+        { titulo: 'Transição', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '', imagem: '' },
+        { titulo: 'Gestos', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '', imagem: '' },
+        { titulo: 'Utilidades', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '', imagem: '' },
 
-        { titulo: 'Componentes', texto: '', isTopico: true, url: '', codigo: ``, iframe: '' },
-        { titulo: 'Motion', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '' },
-        { titulo: 'AnimatePresence', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '' },
-        { titulo: 'LayoutGroup', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '' },
-        { titulo: 'LazyMotion', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '' },
-        { titulo: 'MotionConfig', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '' },
-        { titulo: 'Reorder', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '' },
+        { titulo: 'Componentes', texto: '', isTopico: true, url: '', codigo: ``, iframe: '', imagem: '' },
+        { titulo: 'Motion', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '', imagem: '' },
+        { titulo: 'AnimatePresence', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '', imagem: '' },
+        { titulo: 'LayoutGroup', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '', imagem: '' },
+        { titulo: 'LazyMotion', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '', imagem: '' },
+        { titulo: 'MotionConfig', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '', imagem: '' },
+        { titulo: 'Reorder', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '', imagem: '' },
 
-        { titulo: '3D', texto: '', isTopico: true, url: '', codigo: ``, iframe: '' },
-        { titulo: 'Introdução', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '' },
-        { titulo: 'LayoutCamera', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '' },
-        { titulo: 'MotionCanvas', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '' },
+        { titulo: '3D', texto: '', isTopico: true, url: '', codigo: ``, iframe: '', imagem: '' },
+        { titulo: 'Introdução', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '', imagem: '' },
+        { titulo: 'LayoutCamera', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '', imagem: '' },
+        { titulo: 'MotionCanvas', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '', imagem: '' },
 
-        { titulo: 'Recursos Motion', texto: '', isTopico: true, url: '', codigo: ``, iframe: '' },
-        { titulo: 'Acessibilidade', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '' },
-        { titulo: 'Tamanho do bundle', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '' },
-        { titulo: 'Guias de upgrade', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '' },
+        { titulo: 'Recursos Motion', texto: '', isTopico: true, url: '', codigo: ``, iframe: '', imagem: '' },
+        { titulo: 'Acessibilidade', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '', imagem: '' },
+        { titulo: 'Tamanho do bundle', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '', imagem: '' },
+        { titulo: 'Guias de upgrade', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '', imagem: '' },
 
-        { titulo: 'Programação', texto: '', isTopico: true, url: '', codigo: ``, iframe: '' },
-        { titulo: 'Utilidades', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '' },
-        { titulo: 'RenderTarget', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '' },
-        { titulo: 'Propriedades', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '' },
+        { titulo: 'Programação', texto: '', isTopico: true, url: '', codigo: ``, iframe: '', imagem: '' },
+        { titulo: 'Utilidades', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '', imagem: '' },
+        { titulo: 'RenderTarget', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '', imagem: '' },
+        { titulo: 'Propriedades', texto: '', isTopico: false, url: '/docs/etc', codigo: ``, iframe: '', imagem: '' },
 
-        { titulo: 'Comunidade', texto: '', isTopico: true, url: '', codigo: ``, iframe: '' },
-        { titulo: 'GitHub', texto: '', isTopico: false, url: 'https://github.com/junioranheu/', codigo: ``, iframe: '' },
-        { titulo: 'Discord', texto: '', isTopico: false, url: 'https://discord.gg/RdKDenAu8d', codigo: ``, iframe: '' }
+        { titulo: 'Comunidade', texto: '', isTopico: true, url: '', codigo: ``, iframe: '', imagem: ''},
+        { titulo: 'GitHub', texto: '', isTopico: false, url: 'https://github.com/junioranheu/', codigo: ``, iframe: '', imagem: '' },
+        { titulo: 'Discord', texto: '', isTopico: false, url: 'https://discord.gg/RdKDenAu8d', codigo: ``, iframe: '', imagem: '' }
     ]
 
     // Criar ID para os itens;

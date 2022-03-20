@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import BlocoTexto from '../../components/outros/blocoTexto.js';
+import BlocoConteudo from '../../components/outros/blocoConteudo.js';
 import Sidebar from '../../components/outros/sidebar.js';
 import Styles from '../../styles/docs.module.css';
 import StylesGeral from '../../styles/geral.module.css';
@@ -20,7 +20,10 @@ export default function Index() {
 
                     {/* Iterar os itens da página */}
                     {Itens().map((item, i) => (
-                        <BlocoTexto key={i} titulo={item.titulo} texto={item.texto} isTopico={item.isTopico} id={item.id} codigo={item.codigo} iframe={item.iframe} />
+                        <BlocoConteudo key={i}
+                            titulo={item.titulo} texto={item.texto} isTopico={item.isTopico}
+                            id={item.id} codigo={item.codigo} iframe={item.iframe} imagem={item.imagem}
+                        />
                     ))}
                 </div>
             </section>

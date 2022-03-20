@@ -6,7 +6,8 @@ function itens() {
             isTopico: true,
             url: '',
             codigo: ``,
-            iframe: ''
+            iframe: '', 
+            imagem: ''
         },
         {
             titulo: 'Animações',
@@ -14,7 +15,8 @@ function itens() {
             isTopico: false,
             url: '',
             codigo: `<motion.div animate={{ x: 100 }} />`,
-            iframe: ''
+            iframe: '', 
+            imagem: ''
         },
         {
             titulo: 'Gestos',
@@ -25,7 +27,8 @@ function itens() {
     drag="x"
     dragConstraints={{ left: -100, right: 100 }}
 />`,
-            iframe: ''
+            iframe: '', 
+            imagem: ''
         },
         {
             titulo: 'Variantes',
@@ -42,7 +45,8 @@ return (
     <motion.li variants={item} />
     </motion.ul>
 )`,
-            iframe: ''
+            iframe: '', 
+            imagem: ''
         },
         {
             titulo: 'Renderização do lado do servidor',
@@ -50,7 +54,8 @@ return (
             isTopico: false,
             url: '',
             codigo: `<motion.div initial={false} animate={{ x: 100 }} />`,
-            iframe: ''
+            iframe: '', 
+            imagem: ''
         },
         {
             titulo: 'Animações baseadas em scroll',
@@ -61,7 +66,8 @@ return (
 const opacity = useTransform(x, [-100, 0, 100], [0, 1, 0])
 
 return <motion.div drag="x" style={{ x, opacity }} />`,
-            iframe: ''
+            iframe: '', 
+            imagem: ''
         },
         {
             titulo: 'Início rápido',
@@ -69,7 +75,8 @@ return <motion.div drag="x" style={{ x, opacity }} />`,
             isTopico: true,
             url: '',
             codigo: ``,
-            iframe: ''
+            iframe: '', 
+            imagem: ''
         },
         {
             titulo: 'Instalação',
@@ -77,7 +84,8 @@ return <motion.div drag="x" style={{ x, opacity }} />`,
             isTopico: false,
             url: '',
             codigo: `npm install framer-motion`,
-            iframe: ''
+            iframe: '', 
+            imagem: ''
         },
         {
             titulo: 'Importar',
@@ -85,7 +93,8 @@ return <motion.div drag="x" style={{ x, opacity }} />`,
             isTopico: false,
             url: '',
             codigo: `import { motion } from "framer-motion"`,
-            iframe: ''
+            iframe: '', 
+            imagem: ''
         },
         {
             titulo: 'Tópicos',
@@ -93,7 +102,8 @@ return <motion.div drag="x" style={{ x, opacity }} />`,
             isTopico: true,
             url: '',
             codigo: ``,
-            iframe: ''
+            iframe: '', 
+            imagem: ''
         },
         {
             titulo: 'Animação',
@@ -112,7 +122,8 @@ return (
         variants={variants}
     />
 )`,
-            iframe: ''
+            iframe: '', 
+            imagem: ''
         },
         {
             titulo: 'Gestos',
@@ -125,7 +136,8 @@ return (
     whileHover={{ scale: 1.1 }}
     whileTap={{ scale: 0.9 }}
 />`,
-            iframe: ''
+            iframe: '', 
+            imagem: ''
         }
     ]
 

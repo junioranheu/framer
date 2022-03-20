@@ -1,38 +1,24 @@
 import Card from '../../components/outros/card.js';
 import SpanComEfeitoAtras from '../../components/outros/spanComEfeitoAtras.js';
 import CurlyBraces from '../../components/svg/curlyBraces.js';
-import LogoReact from '../../components/svg/logoReact.js';
 
 function itens() {
     const itens = [
-        { titulo: 'Guia de iniciação', texto: '', isTopico: true, url: '', codigo: ``, iframe: '' },
-
-        {
-            titulo: '',
-            texto:
-                <Card Svg={<LogoReact />}
-                    titulo='Componentes de código'
-                    subtitulo='Crie componentes super flexiveis em React.'
-                    url='/docs/guias/componentes-codigo'
-                />,
-            isTopico: true,
-            url: '',
-            codigo: ``,
-            iframe: ''
-        },
+        { titulo: 'Guia de iniciação', texto: '', isTopico: true, url: '', codigo: ``, iframe: '', imagem: '' },
 
         {
             titulo: '',
             texto:
                 <Card Svg={<CurlyBraces />}
-                    titulo='Códigos de substituição'
-                    subtitulo='Crie funções e aplique-as em qualquer elemento facilmente.'
-                    url='/docs/guias/etc'
+                    titulo='Componentes de código'
+                    subtitulo='Crie componentes super flexiveis em React diretamente em nossa framework.'
+                    url='/docs/guias/componentes-codigo'
                 />,
             isTopico: true,
             url: '',
             codigo: ``,
-            iframe: ''
+            iframe: '', 
+            imagem: ''
         },
 
         {
@@ -41,14 +27,13 @@ function itens() {
             isTopico: true,
             url: '',
             codigo: ``,
-            iframe: ''
-        },
-
-        // { titulo: 'xxx', texto: '', isTopico: true, url: '', codigo: ``, iframe: '' }
+            iframe: '', 
+            imagem: ''
+        }
     ]
 
     // Criar ID para os itens;
-    const nome = 'docs_index_';
+    const nome = 'guias_index_';
     for (let i = 0; i < itens.length; i++) {
         itens[i].id = nome + (i + 1);
     }

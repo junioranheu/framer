@@ -3,7 +3,7 @@ import Motion from '../../components/svg/motion.js';
 
 function itens() {
     const itens = [
-        { titulo: 'Guia de iniciação', texto: '', isTopico: true, url: '', codigo: ``, iframe: '' },
+        { titulo: 'Guia de iniciação', texto: '', isTopico: true, url: '', codigo: ``, iframe: '', imagem: '' },
 
         {
             titulo: '',
@@ -16,11 +16,12 @@ function itens() {
             isTopico: true,
             url: '',
             codigo: ``,
-            iframe: ''
+            iframe: '', 
+            imagem: ''
         },
 
-        { titulo: 'Framer Motion', texto: 'Uma biblioteca pronta para produção de código aberto para React.', isTopico: true, url: '', codigo: ``, iframe: '' },
-        { titulo: 'Código', texto: '', isTopico: true, url: '', codigo: ``, iframe: '' }
+        { titulo: 'Framer Motion', texto: 'Uma biblioteca pronta para produção de código aberto para React.', isTopico: true, url: '', codigo: ``, iframe: '', imagem: '' },
+        { titulo: 'Código', texto: '', isTopico: true, url: '', codigo: ``, iframe: '', imagem: '' }
     ]
 
     // Criar ID para os itens;

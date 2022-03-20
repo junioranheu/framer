@@ -6,7 +6,7 @@ import StylesGeral from '../../../styles/geral.module.css';
 import Itens from '../../../utils/dados/guias.index.js';
 import ItensSidebarEsquerda from '../../../utils/dados/guias.itensSidebarEsquerda.js';
 
-export default function Index() {
+export default function ComponentesInteligentes() {
     return (
         <Fragment>
             <Sidebar itens={ItensSidebarEsquerda()} isSidebarEsquerda={true} />
@@ -14,8 +14,8 @@ export default function Index() {
             <section className={Styles.wrapper}>
                 <div className={Styles.principal}>
                     <div>
-                        <span className={StylesGeral.titulo}>Trabalhando com os recursos</span>
-                        <span className={StylesGeral.tituloDesc}>Extenda seus protótipos com os nossos recursos, componentes e etc.</span>
+                        <span className={StylesGeral.titulo}>Componentes inteligentes</span>
+                        <span className={StylesGeral.tituloDesc}>Crie funções e aplique-as em qualquer elemento facilmente.</span>
                     </div>
 
                     {/* Iterar os itens da página */}
