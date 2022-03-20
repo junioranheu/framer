@@ -20,7 +20,7 @@ export default function App({ Component, pageProps, ...appProps }) {
         setUrl(appProps.router.pathname);
 
         // Título da página;
-        document.title = `${ajustarUrl(appProps.router.pathname)} — Framer — junioranheu`;
+        document.title = `${ajustarUrl(appProps.router.pathname)} — Framer`;
     }, [appProps]);
 
     function verificarLayout() {
