@@ -1,4 +1,4 @@
-import Styles from '../../styles/geral.module.css';
+import Styles from '../../styles/card.module.css';
 
 export default function Card({ Svg, titulo, subtitulo, url }) {
     return (

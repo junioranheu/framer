@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../../components/outros/card.js';
+import CardGrande from '../../components/outros/cardGrande.js';
 import Seta from '../../components/svg/seta.js';
 import Video1 from '../../static/pages/devs/1.mp4';
 import Styles from '../../styles/landingPage.module.css';
@@ -29,13 +29,15 @@ export default function Index() {
             </div>
 
             <div className={Styles.divCards}>
-                <Card Svg=''
+                <CardGrande
+                    tituloInicial='Componentes em React.js'
                     titulo='Componentes'
                     subtitulo='Aprenda mais sobre os recursos e comece explorando alguns exemplos interativos.'
                     url=''
                 />
 
-                <Card Svg=''
+                <CardGrande
+                    tituloInicial='Componentes de alta performance'
                     titulo='Código de substituição'
                     subtitulo='Aprenda mais sobre os recursos e comece explorando alguns exemplos interativos.'
                     url=''
