@@ -6,7 +6,7 @@ export default function CardGrande({ tituloInicial, titulo, subtitulo, url }) {
             <div className={Styles.cardDivTextoGrande}>
                 <span className={Styles.cardTituloInicial}>{tituloInicial}</span>
                 <span className={Styles.cardTituloGrande}>{titulo}</span>
-                <span className={Styles.cardSubtituloGrande}>{subtitulo}</span>
+                <span className={Styles.cardSubtituloGrande}><span dangerouslySetInnerHTML={{ __html: subtitulo }} /></span>
             </div>
         </section>
     )

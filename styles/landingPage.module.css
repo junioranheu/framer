@@ -5,11 +5,14 @@
     overflow-y: auto;
 
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 
     margin-bottom: 100px;
+}
+
+.corSecundaria {
+    background-color: var(--super-preto);
 }
 
 .sessaoTituloPrincipal {
@@ -35,6 +38,17 @@
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: -.014em;
+
+    display: flex;
+    justify-content: center;
+}
+
+.tituloPrincipalMedio {
+    color: var(--branco);
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 0.9;
+    letter-spacing: -.046em;
 
     display: flex;
     justify-content: center;
@@ -69,7 +83,7 @@
     border-radius: 16px;
 }
 
-.divCards{
+.divCards {
     /* background-color: pink; */
     margin-top: 1rem;
     width: 70vw;
@@ -79,8 +93,27 @@
     gap: 20px;
 }
 
-.divCards section{
+.divCards section {
     width: 50%;
+}
+
+.divIcones {
+    background-color: pink;
+    color: red !important;
+
+    margin-top: 1rem;
+    width: 55vw;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.divIcones div {
+    background-color: blue;
+    flex: 0 0 30%;
 }
 
 .margemTopP {
