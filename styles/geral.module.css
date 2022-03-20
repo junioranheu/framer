@@ -207,14 +207,14 @@
 
 .cardDivTexto {
   /* background-color: pink; */
-  width: 70%;
+  width: 80%;
   display: flex;
   flex-direction: column;
 }
 
 .cardTitulo {
   color: var(--branco);
-  font-size: 1.6rem;
+  font-size: 2rem;
   letter-spacing: -.032em;
   line-height: 1.24;
   font-weight: 600;
