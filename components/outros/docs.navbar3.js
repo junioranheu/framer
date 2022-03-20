@@ -5,7 +5,7 @@ import Styles from '../../styles/docs.navbar3.module.css';
 
 export default function Navbar1() {
     const itens = [
-        { item: 'Visão geral', url: '' },
+        { item: 'Visão geral', url: '/devs' },
         { item: 'Movimento', url: '' },
         { item: 'Handshake', url: '' },
         { item: 'Guias', url: '/docs/guias' },

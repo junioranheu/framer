@@ -5,7 +5,7 @@ import Navbar3 from '../components/outros/docs.navbar3';
 import Footer from '../components/outros/footer';
 import Styles from '../styles/geral.module.css';
 
-export default function Doc({ Component, pageProps }) {
+export default function Docs({ Component, pageProps }) {
     return (
         <Fragment>
             <main className='main'>
