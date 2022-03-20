@@ -18,7 +18,7 @@
 }
 
 .principal span {
-    display: inline-flex;
+    display: inline-block;
 
     text-rendering: optimizelegibility;
     word-break: break-word;

@@ -46,6 +46,17 @@
   margin-top: 2rem;
 }
 
+.efeitoTexto {
+  /* position: relative; */
+  padding: 0.3em 0.4em;
+  background: var(--cinza);
+  border-radius: 0.4em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  font-size: .75em;
+  font-weight: 500;
+}
+
 /* Mostrar o # no hover */
 .topico:hover:before, .subTopico:hover:before {
   content: '#';
@@ -153,7 +164,7 @@
 
   cursor: pointer;
   background: var(--cor-roxo-card);
-width: 100%;
+  width: 100%;
 
   display: flex;
   flex-flow: column nowrap;
