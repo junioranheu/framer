@@ -1,0 +1,45 @@
+.principal {
+    /* background-color: pink; */
+    width: 100vw;
+    min-height: 100vh;
+    overflow-y: auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+.sessaoTituloPrincipal {
+    /* background-color: red; */
+    margin-top: 10rem;
+
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloPrincipal {
+    color: var(--branco);
+    font-size: 7rem;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -.046em;
+
+    display: flex;
+    justify-content: center;
+}
+
+.descricaoTituloPrincipal {
+    color: var(--branco);
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -.014em;
+
+    display: flex;
+    justify-content: center;
+}
+
+.margemTopP{
+    margin-top: 2rem;
+}

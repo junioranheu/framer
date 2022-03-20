@@ -7,12 +7,14 @@ function fraseAleatoria() {
         'Oi, né?',
         'Pensei que nunca aprenderia React...',
         'Como centraliza uma div mesmo?',
-        'How to centralize a div Stackoverflow',
-        'Google: Flexbox Stackoverflow',
-        'Erro 404',
+        'How to centralize a div Stackoverflow.',
+        'Google: Flexbox Stackoverflow.',
+        'Erro 404...',
         'Esse projeto deu um trampo, ein?',
         'Me segue no GitHub aqui ao lado!',
-        'Back-end > Front-end'
+        'Back-end > Front-end?!',
+        'Talvez front-end > back-end.',
+        'Testando... 1, 2, 3.'
     ];
 
     const random = Math.floor(Math.random() * frase.length);
