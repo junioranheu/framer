@@ -87,16 +87,15 @@ export default function Footer() {
                     <Link href='/'><a>Tutoriais</a></Link>
                     <Link href='/'><a>Exemplos</a></Link>
                     <Link href='/'><a>Templates</a></Link>
-                    <Link href='/'><a>Ssessões</a></Link>
+                    <Link href='/'><a>Sessões</a></Link>
                 </div>
 
                 <div className={Styles.sessao}>
                     <span className={Styles.tituloSessao}>Sobre</span>
 
-                    <Link href='/'><a>Loupe</a></Link>
-                    <Link href='/'><a>Community</a></Link>
-                    <Link href='/'><a>Company</a></Link>
-                    <Link href='/'><a>Careers</a></Link>
+                    <Link href='/'><a>Comunidade</a></Link>
+                    <Link href='/'><a>Empresa</a></Link>
+                    <Link href='/'><a>Carreiras</a></Link>
                     <Link href='/'><a>Legal</a></Link>
                 </div>
 
