@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import Styles from '../../styles/sidebar.module.css';
 
-export default function Sidebar({ itens, isSidebarEsquerda, justify }) {
+export default function Sidebar({ itens, isSidebarEsquerda }) {
     // console.log(itens);
     const { asPath } = useRouter();
     const [urlAtual, setUrlAtual] = useState('');
@@ -22,7 +22,7 @@ export default function Sidebar({ itens, isSidebarEsquerda, justify }) {
     }
 
     return (
-        <section className={Styles.principal} style={{ justifyContent: justify }}>
+        <section className={Styles.principal} style={{ justifyContent: (isSidebarEsquerda ? 'right' : 'center') }}>
             <div className={Styles.wrapper}>
                 {/* Se for esquerda, exiba a mensagem padrão */}
                 {!isSidebarEsquerda && (

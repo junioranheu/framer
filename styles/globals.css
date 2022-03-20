@@ -3,10 +3,10 @@
   --super-preto: #000000;
   --branco: #FFFFFF;
   --cinza: #313131;
-  --cor-principal: #00BBFF;
-  --cor-principal-escura: #0D6A8C;
+  --cor-principal: hsl(259, 100%, 71%);
+  --cor-principal-escura: hsl(257, 80%, 60%);
   --cor-border-hr: rgba(42, 42, 42, 100);
-  --cor-roxo-card: linear-gradient(to bottom right, hsl(259, 100%, 71%), hsl(257, 80%, 60%));
+  --cor-roxo-card: linear-gradient(to bottom right, var(--cor-principal), var(--cor-principal-escura));
 }
 
 html, body {
@@ -77,7 +77,7 @@ a {
   transition: opacity .2s;
 }
 
-.new {
+.efeito-new {
   position: relative;
   display: inline-block;
   margin-left: 8px;

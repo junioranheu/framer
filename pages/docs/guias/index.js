@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react';
-import BlocoTexto from '../../components/outros/blocoTexto.js';
-import Sidebar from '../../components/outros/sidebar.js';
-import Styles from '../../styles/docs.module.css';
-import StylesGeral from '../../styles/geral.module.css';
-import Itens from '../../utils/dados/docs.exemplos.js';
-import ItensSidebarEsquerda from '../../utils/dados/docs.itensSidebarEsquerda.js';
+import BlocoTexto from '../../../components/outros/blocoTexto.js';
+import Sidebar from '../../../components/outros/sidebar.js';
+import Styles from '../../../styles/docs.module.css';
+import StylesGeral from '../../../styles/geral.module.css';
+import Itens from '../../../utils/dados/guias.index.js';
+import ItensSidebarEsquerda from '../../../utils/dados/guias.itensSidebarEsquerda.js';
 
-export default function Exemplos() {
+export default function Index() {
     return (
         <Fragment>
             <Sidebar itens={ItensSidebarEsquerda()} isSidebarEsquerda={true} />
@@ -14,8 +14,8 @@ export default function Exemplos() {
             <section className={Styles.wrapper}>
                 <div className={Styles.principal}>
                     <div>
-                        <span className={StylesGeral.titulo}>Introdução</span>
-                        <span className={StylesGeral.tituloDesc}>Comece por aqui, explorando exemplos interativos e de fácil entendimento.</span>
+                        <span className={StylesGeral.titulo}>Trabalhando com os recursos</span>
+                        <span className={StylesGeral.tituloDesc}>Extenda seus protótipos com os nossos recursos, componentes e etc.</span>
                     </div>
 
                     {/* Iterar os itens da página */}

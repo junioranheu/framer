@@ -3,9 +3,7 @@ import Navbar1 from '../components/outros/docs.navbar1';
 import Navbar2 from '../components/outros/docs.navbar2';
 import Navbar3 from '../components/outros/docs.navbar3';
 import Footer from '../components/outros/footer';
-import Sidebar from '../components/outros/sidebar';
 import Styles from '../styles/geral.module.css';
-import ItensSidebarEsquerda from '../utils/dados/docs.itensSidebarEsquerda';
 
 export default function Doc({ Component, pageProps }) {
     return (
@@ -16,7 +14,6 @@ export default function Doc({ Component, pageProps }) {
                 <Navbar3 />
 
                 <section className={Styles.fundo}>
-                    <Sidebar itens={ItensSidebarEsquerda()} isSidebarEsquerda={true} justify={'right'} />
                     <Component {...pageProps} />
                 </section>
 

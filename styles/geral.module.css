@@ -47,19 +47,32 @@
 }
 
 .efeitoTexto {
-  /* position: relative; */
-  padding: 0.3em 0.4em;
+  padding: 0.3em;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
   background: var(--cinza);
   border-radius: 0.4em;
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
-  font-size: .75em;
-  font-weight: 500;
+
+  font-size: 0.75em;
+  font-weight: 400;
 }
 
-/* Mostrar o # no hover */
+.efeitoTextoGrande {
+  padding: 1.8em;
+  background: var(--cinza);
+  border-radius: 0.4em;
+
+  color: var(--branco);
+  font-size: 1.2rem;
+  font-weight: 500;
+  opacity: 0.9;
+  line-height: 1.5;
+}
+
+/* Mostrar o # (hashtag) no hover */
 .topico:hover:before, .subTopico:hover:before {
   content: '#';
+  display: inline-block;
   width: 0px;
   font-weight: 500;
 
@@ -164,7 +177,7 @@
 
   cursor: pointer;
   background: var(--cor-roxo-card);
-  width: 100%;
+  width: 60vh;
 
   display: flex;
   flex-flow: column nowrap;
@@ -232,5 +245,9 @@
 
   .topico:before, .subTopico::before {
     display: none;
+  }
+
+  .card {
+    width: 50vh !important;
   }
 }
