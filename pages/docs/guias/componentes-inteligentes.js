@@ -3,14 +3,14 @@ import BlocoConteudo from '../../../components/outros/blocoConteudo.js';
 import Sidebar from '../../../components/outros/sidebar.js';
 import Styles from '../../../styles/docs.module.css';
 import StylesGeral from '../../../styles/geral.module.css';
-import Itens from '../../../utils/dados/guias.index.js';
+import Itens from '../../../utils/dados/guias.componentesInteligentes.js';
 import ItensSidebarEsquerda from '../../../utils/dados/guias.itensSidebarEsquerda.js';
 
 export default function ComponentesInteligentes() {
     return (
         <Fragment>
             <Sidebar itens={ItensSidebarEsquerda()} isSidebarEsquerda={true} />
-
+ 
             <section className={Styles.wrapper}>
                 <div className={Styles.principal}>
                     <div>

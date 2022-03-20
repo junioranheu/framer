@@ -9,7 +9,7 @@ function itens() {
         { titulo: 'Compartilhamento', texto: '', isTopico: false, url: '/docs/guias/etc', codigo: ``, iframe: '', imagem: '' },
         { titulo: 'Importação', texto: '', isTopico: false, url: '/docs/guias/etc', codigo: ``, iframe: '', imagem: '' },
         { titulo: 'Migração', texto: '', isTopico: false, url: '/docs/guias/etc', codigo: ``, iframe: '', imagem: '' },
-        { titulo: 'Handshake (beta)', texto: '', isTopico: false, url: '/docs/guias/etc', codigo: ``, iframe: '', imagem: '' },
+        { titulo: 'Handshake <span class="efeito-new">beta</span>', texto: '', isTopico: false, url: '/docs/guias/etc', codigo: ``, iframe: '', imagem: '' },
 
         { titulo: 'Comunidade', texto: '', isTopico: true, url: '', codigo: ``, iframe: '', imagem: '' },
         { titulo: 'GitHub', texto: '', isTopico: false, url: 'https://github.com/junioranheu/', codigo: ``, iframe: '', imagem: '' },

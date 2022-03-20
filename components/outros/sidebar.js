@@ -42,18 +42,18 @@ export default function Sidebar({ itens, isSidebarEsquerda }) {
                             {isSidebarEsquerda ? (
                                 item.isTopico ? (
                                     <span className={`${Styles.item} ${(i > 0 && isSidebarEsquerda ? Styles.itemMargemTop : '')}`} key={i}>
-                                        {item.titulo}
+                                        <span dangerouslySetInnerHTML={{ __html: item.titulo }} />
                                     </span>
                                 ) : (
                                     <Link key={i} href={item.url}>
                                         <a className={`opacidade-hover ${Styles.subItem} ${(urlAtual === item.url ? 'cor-principal' : '')}`}>
-                                            {item.titulo}
+                                            <span dangerouslySetInnerHTML={{ __html: item.titulo }} />
                                         </a>
                                     </Link>
                                 )
                             ) : (
                                 <a key={i} onClick={() => handleScrollAnchor(item.id)} className={`opacidade-hover ${Styles.subItem} ${(item.isTopico ? '' : Styles.subItemPadding)}`}>
-                                    {item.titulo}
+                                    <span dangerouslySetInnerHTML={{ __html: item.titulo }} />
                                 </a>
                             )}
                         </div>
