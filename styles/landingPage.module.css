@@ -12,12 +12,16 @@
 
 .principal {
     /* background-color: red; */
-    width: 75vw;
+    width: 73vw;
     padding-bottom: 6rem;
 }
 
-.opacidadeBaixa{
-    opacity: 0.7;
+.opacidadeAlta {
+    opacity: 1 !important;
+}
+
+.opacidadeBaixa {
+    opacity: 0.7 !important;
 }
 
 .sessaoTituloPrincipal {
@@ -29,7 +33,7 @@
     color: var(--branco);
     font-size: 5rem;
     font-weight: 600;
-    line-height: 0.9;
+    line-height: 1.06;
     letter-spacing: -.046em;
 
     display: flex;
@@ -38,7 +42,7 @@
 
 .descricaoTituloPrincipal {
     color: var(--branco);
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: -.014em;
@@ -47,6 +51,14 @@
 
     display: flex;
     justify-content: left;
+}
+
+.tituloPrincipalMedio {
+    color: var(--branco);
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -.046em;
 }
 
 .botaoCustom button {
@@ -61,10 +73,11 @@
     margin-top: 3rem;
 }
 
+/* =-=-=-=-=-=-=-=-= Vídeo =-=-=-=-=-=-=-=-= */
 .divMedia {
     /* background-color: pink; */
-    width: 100%;
     /* margin: auto; */
+    width: 100%;
 }
 
 .video {
@@ -75,7 +88,50 @@
     border-radius: 16px;
 }
 
+/* =-=-=-=-=-=-=-=-= Opções acima do vídeo principal =-=-=-=-=-=-=-=-= */
+.divOpcoesVideo {
+    margin-bottom: 2rem;
+}
+
+.divOpcoesVideo span {
+    /* background-color: pink; */
+    color: var(--branco);
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: -.3px;
+
+    cursor: pointer;
+    opacity: .5;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s;
+}
+
+.divOpcoesVideo span:hover {
+    opacity: 1;
+}
+
+.divOpcoesVideo span:nth-child(n+2) {
+    margin-left: 1.5rem;
+}
+
+/* =-=-=-=-=-=-=-=-= Sessão1: divMeioAMeio =-=-=-=-=-=-=-=-= */
+.divMeioAMeio {
+    /* background-color: pink; */
+    display: flex;
+    justify-content: left;
+    gap: 3rem;
+}
+
+.divMeioAMeio div {
+    /* background-color: red; */
+    width: 50%
+}
+
 /* =-=-=-=-=-=-=-=-= Margens =-=-=-=-=-=-=-=-= */
+.margemTopXP {
+    margin-top: 1rem;
+}
+
 .margemTopP {
     margin-top: 2rem;
 }
@@ -84,10 +140,10 @@
     margin-top: 4rem;
 }
 
-.margemTopGigante {
+.margemTopXG {
     margin-top: 8rem;
 }
 
 .margemTitulo {
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
