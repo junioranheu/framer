@@ -2,9 +2,9 @@ import Link from 'next/link';
 
 export default function Index() {
     return (
-        <section>
-            Esse é o Index principal<br/>
-            <Link href='/docs'><a style={{color: 'var(--cor-principal)'}}>Clique aqui para ir até /docs</a></Link>
+        <section style={{ color: 'var(--cor-principal)', fontSize: '2rem', fontWeight: '500' }}>
+            Esse é o Index principal — ainda não foi iniciado<br />
+            <Link href='/docs'><a >Clique aqui para ir até /docs</a></Link>
         </section>
     )
 }
