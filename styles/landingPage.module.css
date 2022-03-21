@@ -1,5 +1,7 @@
 .wrapper {
-    /* background-color: pink; */
+    /* background: linear-gradient(140deg, rgb(85, 51, 255), rgb(254, 142, 220)); */
+    /* background: linear-gradient(140deg, rgb(5, 103, 250), rgb(197, 97, 255)); */
+    /* background: linear-gradient(140deg, rgb(255, 191, 107), rgb(255, 132, 107)); */
     width: 100vw;
     min-height: 100vh;
     overflow-y: auto;
@@ -8,11 +10,14 @@
     justify-content: center;
 }
 
-.principal{
+.principal {
     /* background-color: red; */
     width: 75vw;
-
     padding-bottom: 6rem;
+}
+
+.opacidadeBaixa{
+    opacity: 0.7;
 }
 
 .sessaoTituloPrincipal {
@@ -22,7 +27,7 @@
 
 .tituloPrincipal {
     color: var(--branco);
-    font-size: 7rem;
+    font-size: 5rem;
     font-weight: 600;
     line-height: 0.9;
     letter-spacing: -.046em;
@@ -47,11 +52,12 @@
 .botaoCustom button {
     background-color: var(--branco);
 
-    color: var(--cor-principal);
+    /* color: var(--cor-principal); */
+    color: var(--preto);
     font-size: 1.2rem;
     font-weight: 600;
-  
-    padding: 2rem;
+
+    padding: 1.8rem;
     margin-top: 3rem;
 }
 

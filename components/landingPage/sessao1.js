@@ -8,8 +8,9 @@ export default function Sessao1() {
         <section className={Styles.wrapper}>
             <div className={Styles.principal}>
                 <div className={`${Styles.sessaoTituloPrincipal} ${Styles.margemTitulo}`}>
-                    <span className={Styles.tituloPrincipal}>Framer</span>
-                    <span className={Styles.tituloPrincipal}>para Devs</span>
+                    <span className={Styles.tituloPrincipal}>Projete produtos</span>
+                    <span className={Styles.tituloPrincipal}>impressionantes</span>
+                    <span className={`${Styles.tituloPrincipal} ${Styles.opacidadeBaixa}`}>com sua equipe.</span>
 
                     <div className={Styles.botaoCustom}>
                         <Botao texto={'Entre agora — é gratuito'} url={'/docs'} isNovaAba={false} />
