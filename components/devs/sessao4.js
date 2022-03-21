@@ -1,30 +1,51 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
-import Seta from '../../components/svg/seta.js';
-import ImagemSessao3 from '../../static/pages/devs/ImagemSessao3.webp';
+import Imagem1 from '../../static/pages/devs/imgSessao4img1.webp';
+import Imagem2 from '../../static/pages/devs/imgSessao4img2.webp';
+import Imagem3 from '../../static/pages/devs/imgSessao4img3.webp';
+import Imagem4 from '../../static/pages/devs/imgSessao4img4.webp';
 import Styles from '../../styles/landingPage.module.css';
+import Card from '../outros/card';
 
 export default function Sessao4() {
     return (
         <section className={`${Styles.principal} ${Styles.corSecundaria}`}>
-            <span className={`${Styles.efeitoTextoCorPrincipal} ${Styles.margemTitulo}`}>Recurso em desenvolvimento</span>
-
-            <div className={`${Styles.sessaoTituloPrincipal} ${Styles.margemTopP}`}>
+            <div className={`${Styles.sessaoTituloPrincipal} ${Styles.margemTitulo}`}>
                 <span className={Styles.tituloPrincipalMedio}>Crie seu código</span>
             </div>
 
             <div className={Styles.margemTopP}>
-                <span className={Styles.descricaoTituloPrincipal} style={{opacity: '0.7'}}>Lançamos um novo fantástico recurso,</span>
+                <span className={Styles.descricaoTituloPrincipal}>Explore tudo que é possível ser feito com o Framer.</span>
             </div>
 
-            <div className={Styles.margemTopP}>
-                <Link href='/docs'><a className={Styles.link}>Saiba mais <Seta width={'1.9rem'} /></a></Link>
-            </div>
+            <div className={`${Styles.margemTopP} ${Styles.divQuatroCards}`}>
+                <Card Svg={''}
+                    Img={Imagem1}
+                    titulo='Reconhecimento facial'
+                    subtitulo='Aprenda mais sobre os recursos e comece explorando alguns exemplos interativos.'
+                    url='/docs/introducao'
+                />
 
-            <div className={`${Styles.divMedia} ${Styles.margemTopG}`}>
-                    <Image src={ImagemSessao3} alt='' className={Styles.imagem} />
-                </div>
+                <Card Svg={''}
+                    Img={Imagem2}
+                    titulo='Dados reais'
+                    subtitulo='Aprenda mais sobre os recursos e comece explorando alguns exemplos interativos.'
+                    url='/docs/introducao'
+                />
+
+                <Card Svg={''}
+                    Img={Imagem3}
+                    titulo='Integração fácil'
+                    subtitulo='Aprenda mais sobre os recursos e comece explorando alguns exemplos interativos.'
+                    url='/docs/introducao'
+                />
+
+                <Card Svg={''}
+                    Img={Imagem4}
+                    titulo='Arduíno'
+                    subtitulo='Aprenda mais sobre os recursos e comece explorando alguns exemplos interativos.'
+                    url='/docs/introducao'
+                />
+            </div>
         </section>
     )
 }

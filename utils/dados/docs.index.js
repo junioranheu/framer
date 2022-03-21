@@ -9,6 +9,7 @@ function itens() {
             titulo: '',
             texto:
                 <Card Svg={<Motion />}
+                    Img={''}
                     titulo='Comece aqui'
                     subtitulo='Aprenda mais sobre os recursos e comece explorando alguns exemplos interativos.'
                     url='/docs/introducao'

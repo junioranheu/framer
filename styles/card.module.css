@@ -18,11 +18,18 @@
   transition: box-shadow .2s, transform .2s, -webkit-box-shadow .2s, -webkit-transform .2s;
 }
 
-.cardDivSvg {
+.cardDivMedia {
   display: flex;
   justify-content: center;
   margin-top: 6vh;
   margin-bottom: 6vh;
+}
+
+.cardDivMedia img {
+  /* background-color: pink !important; */
+  object-fit: cover !important;
+  width: 100% !important;
+  height: 150px !important;
 }
 
 .cardDivTexto {
@@ -87,3 +94,4 @@
 
   margin-bottom: 1rem;
 }
+

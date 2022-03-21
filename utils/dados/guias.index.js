@@ -10,6 +10,7 @@ function itens() {
             titulo: '',
             texto:
                 <Card Svg={<CurlyBraces />}
+                    Img={''}
                     titulo='Componentes de código'
                     subtitulo='Crie componentes super flexiveis em React diretamente em nossa framework.'
                     url='/docs/guias/componentes-codigo'
@@ -17,7 +18,7 @@ function itens() {
             isTopico: true,
             url: '',
             codigo: ``,
-            iframe: '', 
+            iframe: '',
             imagem: ''
         },
 
@@ -27,7 +28,7 @@ function itens() {
             isTopico: true,
             url: '',
             codigo: ``,
-            iframe: '', 
+            iframe: '',
             imagem: ''
         }
     ]

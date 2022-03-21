@@ -113,10 +113,34 @@
     justify-content: center;
 }
 
-.imagem{
+.imagem {
     border-radius: 16px;
 }
 
+/* =-=-=-=-=-=-=-=-= divQuatroCards usada em sessao4.js =-=-=-=-=-=-=-=-= */
+.divQuatroCards {
+    /* background-color: pink; */
+    width: 60vw;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    row-gap: 10px;
+}
+
+.divQuatroCards section {
+    /* background-color: blue; */
+    flex: 0 0 40%;
+}
+
+.divQuatroCards section div {
+    /* background-color: blue; */
+    width: 100%;
+}
+
+/* =-=-=-=-=-=-=-=-= Margens =-=-=-=-=-=-=-=-= */
 .margemTopP {
     margin-top: 2rem;
 }

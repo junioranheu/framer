@@ -9,7 +9,7 @@ import { modoDark } from '../../utils/context/modoDarkContext';
 export default function Footer() {
     useEffect(() => {
         const isModoDark = (modoDark.get() ? modoDark.get().isModoDark : null);
-        console.log(isModoDark);
+        // console.log(isModoDark);
 
         if (isModoDark === null) {
             // console.log('isModoDark não definido');
