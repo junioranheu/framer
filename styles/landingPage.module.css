@@ -17,7 +17,6 @@
 
 .sessaoTituloPrincipal {
     /* background-color: red; */
-    margin-top: 10rem;
     height: fit-content;
 }
 
@@ -38,6 +37,8 @@
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: -.014em;
+
+    opacity: 0.7;
 
     display: flex;
     justify-content: center;
@@ -70,7 +71,7 @@
     transition: opacity .2s, color .2s;
 }
 
-.divVideo {
+.divMedia {
     /* background-color: pink; */
     width: 70vw;
 }
@@ -97,6 +98,25 @@
     width: 50%;
 }
 
+.efeitoTextoCorPrincipal {
+    padding: 0.5em;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+    background: var(--cinza);
+    border-radius: 0.4em;
+
+    color: var(--cor-principal);
+    font-size: 0.9em;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: center;
+}
+
+.imagem{
+    border-radius: 16px;
+}
+
 .margemTopP {
     margin-top: 2rem;
 }
@@ -105,9 +125,13 @@
     margin-top: 4rem;
 }
 
+.margemTitulo {
+    margin-top: 10rem;
+}
+
 /* =-=-=-=-=-=-=-=-=-=-= Media queries =-=-=-=-=-=-=-=-=-=-= */
 @media (max-width:879px) {
-    .divVideo {
+    .divMedia {
         /* background-color: pink; */
         width: 80vw;
     }

@@ -12,7 +12,7 @@ import DivIcone from './divIcone';
 export default function Sessao2() {
     return (
         <section className={`${Styles.principal} ${Styles.corSecundaria}`}>
-            <div className={Styles.sessaoTituloPrincipal}>
+            <div className={`${Styles.sessaoTituloPrincipal} ${Styles.margemTitulo}`}>
                 <span className={Styles.tituloPrincipalMedio}>O poder do browser</span>
                 <span className={Styles.tituloPrincipalMedio}>com a liberdade do canvas</span>
             </div>

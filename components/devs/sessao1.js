@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import CardGrande from '../../components/outros/cardGrande.js';
 import Seta from '../../components/svg/seta.js';
@@ -7,7 +8,7 @@ import Styles from '../../styles/landingPage.module.css';
 export default function Sessao1() {
     return (
         <section className={Styles.principal}>
-            <div className={Styles.sessaoTituloPrincipal}>
+            <div className={`${Styles.sessaoTituloPrincipal} ${Styles.margemTitulo}`}>
                 <span className={Styles.tituloPrincipal}>Framer</span>
                 <span className={Styles.tituloPrincipal}>para Devs</span>
             </div>
@@ -19,10 +20,10 @@ export default function Sessao1() {
             </div>
 
             <div className={Styles.margemTopP}>
-                <a className={Styles.link}>Testar on-line <Seta width={'1.9rem'} /></a>
+                <Link href='/docs'><a className={Styles.link}>Testar on-line <Seta width={'1.9rem'} /></a></Link>
             </div>
 
-            <div className={`${Styles.divVideo} ${Styles.margemTopG}`}>
+            <div className={`${Styles.divMedia} ${Styles.margemTopG}`}>
                 <video className={Styles.video} autoPlay loop muted playsInline disablePictureInPicture controls={false}>
                     <source src={Video1} type='video/mp4' />
                 </video>
