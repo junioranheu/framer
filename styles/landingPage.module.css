@@ -140,6 +140,38 @@
     width: 100%;
 }
 
+/* =-=-=-=-=-=-=-=-= div comentário do usuário usada em sessao5.js =-=-=-=-=-=-=-=-= */
+.divUsuarioComentario {
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 50vw;
+    gap: 15px;
+}
+
+.divUsuarioComentario div:nth-child(1) img {
+    /* background-color: red; */
+    width: 50px !important;
+    border-radius: 50%;
+}
+
+.divUsuarioComentario div:nth-child(2) {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    color: var(--branco);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.divUsuarioComentario div:nth-child(2) span:nth-child(2) {
+    opacity: 0.7;
+}
+
 /* =-=-=-=-=-=-=-=-= Margens =-=-=-=-=-=-=-=-= */
 .margemTopP {
     margin-top: 2rem;
