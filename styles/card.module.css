@@ -130,3 +130,34 @@
   padding: 2rem;
   margin-top: 3rem;
 }
+
+/* =-=-=-=-=-=-=-=-=-=-=-=- Media queries =-=-=-=-=-=-=-=-=-=-=-=- */
+/* big landscape tablets, laptops, and desktops */
+@media (max-width:1025px) {
+  .cardTitulo {
+    font-size: 1.5rem;
+  }
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (max-width:801px) {
+  .cardTitulo {
+    font-size: 1.2rem;
+  }
+
+  .cardGigante {
+    width: 90vw !important;
+  }
+}
+
+
+/* smartphones, Android phones, landscape iPhone */
+@media (max-width:480px) {
+  .cardDivTextoGigante {
+    width: 100%;
+  }
+
+  .cardTituloGrande {
+    font-size: 2rem;
+  }
+}

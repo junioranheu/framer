@@ -185,10 +185,121 @@
     margin-top: 10rem;
 }
 
-/* =-=-=-=-=-=-=-=-=-=-= Media queries =-=-=-=-=-=-=-=-=-=-= */
-@media (max-width:879px) {
+/* =-=-=-=-=-=-=-=-=-=-=-=- Media queries =-=-=-=-=-=-=-=-=-=-=-=- */
+/* hi-res laptops and desktops */
+@media (max-width:1281px) {
+    /* .principal {
+        background-color: pink;
+    } */
+
+    .divQuatroCards {
+        width: 90vw;
+    }
+}
+
+/* big landscape tablets, laptops, and desktops */
+@media (max-width:1025px) {
+    /* .principal {
+        background-color: red;
+    } */
+
     .divMedia {
-        /* background-color: pink; */
         width: 80vw;
+    }
+
+    .divCards {
+        width: 80vw;
+    }
+
+    .tituloPrincipalMedio {
+        font-size: 3.5rem;
+    }
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (max-width:801px) {
+    /* .principal {
+        background-color: purple;
+    } */
+
+    .divMedia {
+        width: 90vw;
+    }
+
+    .divCards {
+        width: 90vw;
+    }
+
+    .tituloPrincipalMedio {
+        font-size: 3rem;
+    }
+
+    .descricaoTituloPrincipal {
+        font-size: 1.45rem;
+    }
+}
+
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media (max-width:600px) {
+    /* .principal {
+        background-color: blue;
+    } */
+
+    .margemTitulo {
+        margin-top: 5rem;
+    }
+
+    .divMedia {
+        width: 95vw;
+    }
+
+    .divCards {
+        width: 95vw;
+
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .divCards section {
+        width: 100%;
+    }
+
+    .tituloPrincipalMedio {
+        font-size: 2.2rem;
+    }
+
+    .descricaoTituloPrincipal {
+        font-size: 1.2rem;
+    }
+
+    .divQuatroCards {
+        display: flex;
+        flex-wrap: unset;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        row-gap: 10px;
+    }
+
+    .divQuatroCards section {
+        flex: unset;
+        width: 95% !important;
+    }
+}
+
+/* smartphones, Android phones, landscape iPhone */
+@media (max-width:480px) {
+    /* .principal {
+        background-color: yellow;
+    } */
+
+    .tituloPrincipal {
+        font-size: 5rem;
+    }
+
+    .descricaoTituloPrincipal {
+        font-size: 1rem;
     }
 }

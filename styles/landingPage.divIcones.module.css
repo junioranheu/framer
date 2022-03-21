@@ -60,3 +60,18 @@
     margin-bottom: 1rem;
     background: var(--cor-principal);
 }
+
+/* =-=-=-=-=-=-=-=-=-=-=-=- Media queries =-=-=-=-=-=-=-=-=-=-=-=- */
+/* big landscape tablets, laptops, and desktops */
+@media (max-width:1025px) {
+    .divIcones {
+        width: 80vw;
+    }
+}
+
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media (max-width:600px) {
+    .divIcones {
+        width: 98vw;
+    }
+}

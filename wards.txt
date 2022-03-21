@@ -1,5 +1,3 @@
 https://www.framer.com/docs/introduction/
 
 --
-finalizar /devs
-ajustar responsividade de /devs

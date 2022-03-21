@@ -9,12 +9,12 @@ export default function Sessao4() {
         <section className={`${Styles.principal} ${Styles.corSecundaria}`}>
             {/* Comentário */}
             <div className={`${Styles.divUsuarioComentario} ${Styles.margemTopG}`}>
-                <div>
+                <div className='pointer' title='Chaleco ctm'>
                     <Image src={Chaleco} alt='' />
                 </div>
 
                 <div>
-                    <span>Israel Chaleco</span>
+                    <span>Israel Chaleco:</span>
                     <span>Estudante de Ciência da Computação em Santiago</span>
                 </div>
             </div>
