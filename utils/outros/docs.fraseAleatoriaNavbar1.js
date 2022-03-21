@@ -11,7 +11,7 @@ function fraseAleatoria() {
         'Google: Flexbox Stackoverflow.',
         'Erro 404...',
         'Esse projeto deu um trampo, ein?',
-        'Me segue no GitHub aqui ao lado!',
+        'Veja meus projetos do Github aqui do lado.',
         'Back-end > Front-end?!',
         'Talvez front-end > back-end.',
         'Testando... 1, 2, 3.'

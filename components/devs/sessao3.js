@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import Seta from '../../components/svg/seta.js';
 import ImagemSessao3 from '../../static/pages/devs/imgSessao3.webp';
-import Styles from '../../styles/landingPage.module.css';
+import Styles from '../../styles/devs.module.css';
 
 export default function Sessao3() {
     return (

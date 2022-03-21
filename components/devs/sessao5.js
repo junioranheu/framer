@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import Chaleco from '../../static/pages/devs/chaleco.webp';
-import Styles from '../../styles/landingPage.module.css';
+import Styles from '../../styles/devs.module.css';
 import CardGigante from '../outros/cardGigante.js';
 
 export default function Sessao4() {

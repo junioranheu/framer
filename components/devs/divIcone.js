@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import Seta from '../../components/svg/seta.js';
-import Styles from '../../styles/landingPage.divIcones.module.css';
+import Styles from '../../styles/devs.divIcones.module.css';
 
 export default function DivIcone({Svg, titulo, desc, url}) {
     return (

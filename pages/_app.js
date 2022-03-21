@@ -3,7 +3,7 @@ import '../fonts/GTWalsheim.css';
 import '../fonts/NanumPenScript.css';
 import '../fonts/PTMono.css';
 import LayoutDocs from '../layouts/docs.js';
-import LayoutTeste from '../layouts/teste.js';
+import LayoutLandingPage from '../layouts/landingPage.js';
 import '../styles/globals.css';
 
 export default function App({ Component, pageProps, ...appProps }) {
@@ -20,7 +20,8 @@ export default function App({ Component, pageProps, ...appProps }) {
         setUrl(appProps.router.pathname);
 
         // Título da página;
-        document.title = `${ajustarUrl(appProps.router.pathname)} — Framer`;
+        const titulo = (appProps.router.pathname !== '/' ? `${ajustarUrl(appProps.router.pathname)} — Framer` : 'Framer — React.js — junioranheu');
+        document.title = titulo;
     }, [appProps]);
 
     function verificarLayout() {
@@ -30,7 +31,7 @@ export default function App({ Component, pageProps, ...appProps }) {
             return <LayoutDocs Component={Component} pageProps={pageProps} />
         }
         else {
-            return <LayoutTeste Component={Component} pageProps={pageProps} />
+            return <LayoutLandingPage Component={Component} pageProps={pageProps} />
         }
     }
 

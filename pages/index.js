@@ -1,10 +1,12 @@
-import Link from 'next/link';
+import React, { useEffect } from 'react';
+import Styles from '../styles/landingPage.module.css';
 
 export default function Index() {
+    useEffect(() => {
+        document.title = 'Framer';
+    }, []);
+
     return (
-        <section style={{ color: 'var(--cor-principal)', fontSize: '2rem', fontWeight: '500' }}>
-            Esse é o Index principal — ainda não foi iniciado<br />
-            <Link href='/docs'><a >Clique aqui para ir até /docs</a></Link>
-        </section>
+        <span className={Styles.teste}>Oi</span>
     )
 }

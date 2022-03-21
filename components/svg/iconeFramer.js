@@ -1,4 +1,4 @@
-import Styles from '../../styles/landingPage.divIcones.module.css';
+import Styles from '../../styles/devs.divIcones.module.css';
 
 export default function IconeFramer() {
     return (

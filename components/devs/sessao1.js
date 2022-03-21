@@ -3,7 +3,7 @@ import React from 'react';
 import CardGrande from '../../components/outros/cardGrande.js';
 import Seta from '../../components/svg/seta.js';
 import Video1 from '../../static/pages/devs/1.mp4';
-import Styles from '../../styles/landingPage.module.css';
+import Styles from '../../styles/devs.module.css';
 
 export default function Sessao1() {
     return (
