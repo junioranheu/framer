@@ -1,6 +1,3 @@
 https://www.framer.com/docs/introduction/
 
 --
-ajustar a cor do botao em landingPage
-ajustar dinamica da cor do Navbar2 em landingPage
-cor dinamica no fundo

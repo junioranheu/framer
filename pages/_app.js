@@ -1,3 +1,4 @@
+import 'animate.css/animate.min.css';
 import React, { useEffect, useState } from 'react';
 import '../fonts/GTWalsheim.css';
 import '../fonts/NanumPenScript.css';
