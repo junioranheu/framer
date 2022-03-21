@@ -29,7 +29,7 @@ export default function Sessao1() {
                     <span className={Styles.tituloPrincipal}>impressionantes</span>
                     <span className={`${Styles.tituloPrincipal} ${Styles.opacidadeBaixa}`}>com sua equipe.</span>
 
-                    <div className={Styles.botaoCustom}>
+                    <div className={`${Styles.botaoCustom} ${Styles.botaoBranco}`}>
                         <Botao texto={'Entre agora — é gratuito'} url={'/docs'} isNovaAba={false} />
                     </div>
                 </div>
@@ -65,7 +65,7 @@ export default function Sessao1() {
                             {loremIpsum({ count: 3 })}
                         </span>
 
-                        <div className={Styles.botaoCustom}>
+                        <div className={`${Styles.botaoCustom} ${Styles.botaoBranco}`}>
                             <Botao texto={'Comece agora'} url={'/docs'} isNovaAba={false} />
                         </div>
                     </div>
@@ -76,7 +76,7 @@ export default function Sessao1() {
                             {loremIpsum({ count: 3 })}
                         </span>
 
-                        <div className={Styles.botaoCustom}>
+                        <div className={`${Styles.botaoCustom} ${Styles.botaoBranco}`}>
                             <Botao texto={'Saiba mais'} url={'/docs'} isNovaAba={false} />
                         </div>
                     </div>

@@ -2,4 +2,8 @@ https://www.framer.com/docs/introduction/
 
 --
 finalizar landingPages
+habilitar o modo light na landing page
 colocar toast de aviso igual os outros projetos
+fazer PREÇO
+fazer ENTRAR
+fazer CRIAR CONTA
