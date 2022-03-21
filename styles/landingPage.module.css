@@ -67,7 +67,6 @@
 
 .botaoCustom button {
     /* color: var(--cor-principal); */
-    color: var(--preto);
     font-size: 1.2rem;
     font-weight: 600;
 
@@ -77,11 +76,14 @@
 
 .botaoBranco button {
     background-color: var(--branco);
+    color: var(--preto);
 }
 
-.botaoCorPrincipal button {
-    background-color: var(--cor-principal);
+.botaoCorVerdeAgua button {
+    background-color: #3ED7DA;
+    color: var(--branco);
 }
+
 /* =-=-=-=-=-=-=-=-= Vídeo =-=-=-=-=-=-=-=-= */
 .divMedia {
     /* background-color: pink; */
@@ -137,7 +139,7 @@
 }
 
 /* =-=-=-=-=-=-=-=-= Classes usadas na sessão 2 =-=-=-=-=-=-=-=-= */
-.corPreto {
+.corPreto, .corPreto span {
     color: var(--preto) !important;
 }
 

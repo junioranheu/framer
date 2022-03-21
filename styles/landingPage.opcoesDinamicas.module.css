@@ -1,0 +1,104 @@
+.wrapper {
+    /* background-color: pink; */
+    display: flex;
+    justify-content: left;
+    gap: 3rem;
+}
+
+.wrapper div:nth-child(1) {
+    /* background-color: red; */
+    width: 60%
+}
+
+.wrapper div:nth-child(2) {
+    /* background-color: red; */
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.opcaoNaoSelecionada {
+    /* background-color: blue; */
+    padding-left: 40px;
+    width: 100% !important;
+}
+
+.opcaoNaoSelecionada:nth-child(n+2) {
+    /* background-color: pink; */
+    margin-top: 20px;
+}
+
+.opcaoSelecionada {
+    /* background-color: blue; */
+    background-color: hsl(0, 0%, 98%);
+    padding: 40px;
+    border-radius: 16px;
+
+    width: 100% !important;
+}
+
+.titulo {
+    color: var(--preto) !important;
+    font-size: 2.2rem !important;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.titulo:hover {
+    opacity: 1;
+    -webkit-transition: opacity .4s;
+    transition: opacity .4s;
+}
+
+.desc {
+    color: var(--preto) !important;
+    font-size: 1.5rem !important;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+    opacity: 0.5;
+    margin-top: 0.8rem;
+}
+
+.botaoCustom button {
+    /* color: var(--cor-principal); */
+    font-size: 1.2rem;
+    font-weight: 500;
+
+    padding: 1.8rem;
+    margin-top: 2rem;
+}
+
+.botaoBranco button {
+    background-color: var(--branco);
+    color: var(--preto);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1), 0px 2px 10px 0px rgba(0, 0, 0, 0.08);
+}
+
+/* =-=-=-=-=-=-=-=-= Vídeo =-=-=-=-=-=-=-=-= */
+.divOpcoes span {
+    color: var(--preto);
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -.046em;
+    /* opacity: 0.7; */
+
+    display: block;
+}
+
+/* =-=-=-=-=-=-=-=-= Vídeo =-=-=-=-=-=-=-=-= */
+.divVideo {
+    /* background-color: pink; */
+    /* margin: auto; */
+    width: 100%;
+}
+
+.video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 16px;
+}
