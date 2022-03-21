@@ -1,5 +1,5 @@
 .principal {
-    /* background-color: pink; */
+    /* background-color: pink !important; */
     width: 100vw;
     min-height: 100vh;
     overflow-y: auto;
@@ -12,7 +12,7 @@
 }
 
 .corSecundaria {
-    background-color: var(--super-preto);
+    background-color: var(--cinza-secundario);
 }
 
 .sessaoTituloPrincipal {
@@ -95,25 +95,6 @@
 
 .divCards section {
     width: 50%;
-}
-
-.divIcones {
-    background-color: pink;
-    color: red !important;
-
-    margin-top: 1rem;
-    width: 55vw;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.divIcones div {
-    background-color: blue;
-    flex: 0 0 30%;
 }
 
 .margemTopP {
