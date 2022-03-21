@@ -1,12 +1,10 @@
-import React, { useEffect } from 'react';
-import Styles from '../styles/landingPage.module.css';
+import React from 'react';
+import Sessao1 from '../components/landingPage/sessao1';
 
 export default function Index() {
-    useEffect(() => {
-        document.title = 'Framer';
-    }, []);
-
     return (
-        <span className={Styles.teste}>Oi</span>
+        <section>
+            <Sessao1 />
+        </section>
     )
 }

@@ -10,11 +10,8 @@ export default function Navbar2() {
             <div>
                 <div>
                     <Link href='/'><a className={Styles.iconeCorInvertida}><Framer />&nbsp;&nbsp;Framer</a></Link>
-                    <Link href='/'><a>Time</a></Link>
-                    <Link href='/'><a>Mostruário</a></Link>
-                    <Link href='/'><a>Desenvolvedores</a></Link>
-                    <Link href='/'><a>Recursos</a></Link>
-                    <Link href='/'><a>Blog</a></Link>
+                    <Link href='/docs'><a>Documentação</a></Link>
+                    <Link href='/devs'><a>Desenvolvedores</a></Link>
                     <Link href='/'><a>Preço</a></Link>
                     <Link href='/'><a><Lupa /></a></Link>
                 </div>
