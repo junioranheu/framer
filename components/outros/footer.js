@@ -9,7 +9,7 @@ import { modoDark } from '../../utils/context/modoDarkContext';
 export default function Footer() {
     useEffect(() => {
         const isModoDark = (modoDark.get() ? modoDark.get().isModoDark : null);
-        // console.log(isModoDark);
+        console.log(isModoDark);
 
         if (isModoDark === null) {
             // console.log('isModoDark não definido');
@@ -19,10 +19,8 @@ export default function Footer() {
         if (isModoDark) {
             // Modo dark;
             setIsDark(true);
-            document.documentElement.style.setProperty('--preto', '#1A1A1A');
-            document.documentElement.style.setProperty('--super-preto', '#000000');
-            document.documentElement.style.setProperty('--branco', '#FFFFFF');
-            document.documentElement.style.setProperty('--cinza', '#313131');
+
+            // Não é necessário definir as variáveis porque o modo dark já é o padrão e está em globals.css também;
         } else {
             // Modo light;
             setIsDark(false);
