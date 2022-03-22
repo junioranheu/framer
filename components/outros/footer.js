@@ -9,7 +9,7 @@ import { modoDark } from '../../utils/context/modoDarkContext';
 export default function Footer() {
     useEffect(() => {
         const isModoDark = (modoDark.get() ? modoDark.get().isModoDark : null);
-        // console.log(isModoDark);
+        //console.log(isModoDark);
 
         if (isModoDark === null) {
             // console.log('isModoDark não definido');
@@ -24,10 +24,7 @@ export default function Footer() {
         } else {
             // Modo light;
             setIsDark(false);
-            document.documentElement.style.setProperty('--preto', '#FFFFFF');
-            document.documentElement.style.setProperty('--super-preto', '#ebe8e8');
-            document.documentElement.style.setProperty('--branco', '#1A1A1A');
-            document.documentElement.style.setProperty('--cinza', '#F2F2F2');
+            alterarModo();
         }
     }, []);
 
@@ -37,10 +34,11 @@ export default function Footer() {
         if (isDark) {
             // Modo light;
             setIsDark(false);
-            document.documentElement.style.setProperty('--preto', '#FFFFFF');
-            document.documentElement.style.setProperty('--super-preto', '#ebe8e8');
-            document.documentElement.style.setProperty('--branco', '#1A1A1A');
-            document.documentElement.style.setProperty('--cinza', '#F2F2F2');
+            document.documentElement.style.setProperty('--preto', '#FFFFFF'); // Preto fica branco;
+            document.documentElement.style.setProperty('--super-preto', '#F2F2F2'); // Super preto fica creme;
+            document.documentElement.style.setProperty('--branco', '#1A1A1A'); // Branco fica preto;
+            document.documentElement.style.setProperty('--cinza', '#F2F2F2'); // Cinza fica creme acinzentado;
+            document.documentElement.style.setProperty('--cinza-secundario', '#F2F2F2'); // Cinza escuro fica creme acinzentado;
         } else {
             // Modo dark;
             setIsDark(true);
@@ -48,6 +46,7 @@ export default function Footer() {
             document.documentElement.style.setProperty('--super-preto', '#000000');
             document.documentElement.style.setProperty('--branco', '#FFFFFF');
             document.documentElement.style.setProperty('--cinza', '#313131');
+            document.documentElement.style.setProperty('--cinza-secundario', '#242424'); 
         }
 
         // Atualizar no localStorage;

@@ -8,7 +8,7 @@ import IconeImport from '../svg/iconeImport.js';
 import IconeNpm from '../svg/iconeNpm.js';
 import IconeReact from '../svg/iconeReact.js';
 import DivIcone from './divIcone';
-
+ 
 export default function Sessao2() {
     return (
         <section className={`${Styles.principal} ${Styles.corSecundaria}`}>
