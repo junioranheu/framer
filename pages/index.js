@@ -3,6 +3,7 @@ import Sessao1 from '../components/landingPage/sessao1.js';
 import Sessao2 from '../components/landingPage/sessao2.js';
 import Sessao3 from '../components/landingPage/sessao3.js';
 import Sessao4 from '../components/landingPage/sessao4.js';
+import Sessao5 from '../components/landingPage/sessao5.js';
 
 export default function Index() {
     return (
@@ -11,6 +12,7 @@ export default function Index() {
             <Sessao2 />
             <Sessao3 />
             <Sessao4 />
+            <Sessao5 />
         </section>
     )
 }

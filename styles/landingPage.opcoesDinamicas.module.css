@@ -5,6 +5,10 @@
     gap: 3rem;
 }
 
+.wrapperOposto{
+    flex-direction: row-reverse;
+}
+
 .wrapper div:nth-child(1) {
     /* background-color: yellow; */
     width: 65%;
@@ -39,11 +43,18 @@
     width: 100% !important;
 }
 
+.opcaoSelecionadaPreto {
+    /* background-color: blue; */
+    background-color: hsla(0, 0%, 100%, 0.08);;
+}
+
 .titulo {
+/* background-color: pink; */
     color: var(--preto) !important;
     font-size: 2.2rem !important;
     opacity: 0.5;
     cursor: pointer;
+    width: fit-content;
 }
 
 .titulo:hover {

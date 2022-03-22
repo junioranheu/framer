@@ -65,6 +65,11 @@
     letter-spacing: -.046em;
 }
 
+.divUsuario {
+    /* background-color: pink; */
+    width: fit-content !important;
+}
+
 .divUsuario img {
     /* background-color: red; */
     width: 50px !important;
@@ -155,9 +160,13 @@
     width: 50%
 }
 
-/* =-=-=-=-=-=-=-=-= Classes usadas na sessão 2 =-=-=-=-=-=-=-=-= */
+/* =-=-=-=-=-=-=-=-= Cores  =-=-=-=-=-=-=-=-= */
 .corPreto, .corPreto span {
     color: var(--preto) !important;
+}
+
+.corBranco, .corBranco span {
+    color: var(--branco) !important;
 }
 
 /* =-=-=-=-=-=-=-=-= Margens =-=-=-=-=-=-=-=-= */
