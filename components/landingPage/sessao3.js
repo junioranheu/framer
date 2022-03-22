@@ -17,8 +17,8 @@ import Slide from '../outros/slide.js';
 
 export default function Sessao3() {
     return (
-        <section className={Styles.wrapper} style={{ background: '#fff' }}>
-            <div className={Styles.principal} style={{ paddingBottom: '0%' }}>
+        <section className={Styles.wrapper} style={{ background: 'var(--branco)' }}>
+            <div className={Styles.principal}>
                 <div className={`${Styles.sessaoTituloPrincipal} ${Styles.margemTopXG}`}>
                     <span className={`${Styles.tituloPrincipal} ${Styles.corPreto}`}>Faça acontecer.</span>
                     <span className={`${Styles.tituloPrincipal} ${Styles.corPreto} ${Styles.opacidadeBaixa}`}>Tire suas ideias do papel</span>

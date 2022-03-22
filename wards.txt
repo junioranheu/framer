@@ -1,7 +1,6 @@
 https://www.framer.com/docs/introduction/
 
 --
-habilitar o modo light na landing page
 colocar toast de aviso igual os outros projetos
 fazer PREÇO
 fazer ENTRAR

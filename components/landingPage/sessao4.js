@@ -8,7 +8,7 @@ import StylesAlternativo from '../../styles/landingPage.opcoesDinamicas.module.c
 
 export default function Sessao4() {
     return (
-        <section className={Styles.wrapper} style={{ background: '#fff' }}>
+        <section className={Styles.wrapper} style={{ background: 'var(--branco)' }}>
             <div className={Styles.principal}>
                 <div className={`${Styles.sessaoTituloPrincipal} ${Styles.margemTopXG}`}>
                     <span className={`${Styles.tituloPrincipal} ${Styles.corPreto}`}>Comece agora. É fácil.</span>
