@@ -120,7 +120,7 @@
 /* =-=-=-=-=-=-=-=-= divQuatroCards usada em sessao4.js =-=-=-=-=-=-=-=-= */
 .divQuatroCards {
     /* background-color: pink; */
-    width: 60vw;
+    width: 70vw;
 
     display: flex;
     flex-wrap: wrap;
