@@ -31,6 +31,9 @@ export default function App({ Component, pageProps, ...appProps }) {
         if (url.includes('/docs') || url.includes('/devs')) {
             return <LayoutDocs Component={Component} pageProps={pageProps} />
         }
+        else if (url.includes('/precos')) {
+            return <LayoutLandingPage Component={Component} pageProps={pageProps} />
+        }
         else {
             return <LayoutLandingPage Component={Component} pageProps={pageProps} />
         }

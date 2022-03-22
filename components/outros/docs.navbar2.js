@@ -12,7 +12,7 @@ export default function Navbar2() {
                     <Link href='/'><a className={Styles.iconeCorInvertida}><Framer />&nbsp;&nbsp;Framer</a></Link>
                     <Link href='/docs'><a>Documentação</a></Link>
                     <Link href='/devs'><a>Desenvolvedores</a></Link>
-                    <Link href='/'><a>Preço</a></Link>
+                    <Link href='/precos'><a>Preços</a></Link>
                     <Link href='/'><a><Lupa /></a></Link>
                 </div>
 
