@@ -6,7 +6,7 @@ import OpcoesDinamicas from './divOpcoesDinamicas.js';
 export default function Sessao2() {
     return (
         <section className={Styles.wrapper} style={{ background: '#fff' }}>
-            <div className={Styles.principal}>
+            <div className={Styles.principal} style={{ paddingBottom: '0%' }}>
                 <div className={`${Styles.sessaoTituloPrincipal} ${Styles.margemTopXG}`}>
                     <span className={`${Styles.tituloPrincipal} ${Styles.corPreto}`}>Cheio de recursos.</span>
                     <span className={`${Styles.tituloPrincipal} ${Styles.corPreto} ${Styles.opacidadeBaixa}`}>Tudo que você precisa para</span>

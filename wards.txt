@@ -1,9 +1,6 @@
 https://www.framer.com/docs/introduction/
 
 --
-iniciar sessao5
-finalizar landingPages
-responsividade na landingPage
 habilitar o modo light na landing page
 colocar toast de aviso igual os outros projetos
 fazer PREÇO

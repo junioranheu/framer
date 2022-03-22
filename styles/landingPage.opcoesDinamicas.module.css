@@ -125,3 +125,24 @@
     object-position: center top;
     border-radius: 16px;
 }
+
+/* =-=-=-=-=-=-=-=-=-=-=-=- Media queries =-=-=-=-=-=-=-=-=-=-=-=- */
+/* big landscape tablets, laptops, and desktops */
+@media (max-width:1025px) {
+    .wrapper {
+        /* background-color: red; */
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .wrapper div:nth-child(1) {
+        /* background-color: yellow; */
+        width: 100%;
+    }
+    
+    .wrapper div:nth-child(2) {
+        /* background-color: red; */
+        width: 100%;
+    }
+}
+
