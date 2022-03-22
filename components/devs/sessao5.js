@@ -31,7 +31,7 @@ export default function Sessao4() {
                 <CardGigante
                     titulo='Entre no nosso servidor do Discord agora mesmo'
                     subtitulo='Tenha suporte dedicado nos nossos canais, explore novas ideias e mostre seu trabalho.'
-                    url='/docs'
+                    url='https://discord.gg/RdKDenAu8d'
                 />
             </div>
         </section>

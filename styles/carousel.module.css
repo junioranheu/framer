@@ -1,0 +1,54 @@
+/* =-=-=-=-=-=-=-=-=-=-=-=- Carousel =-=-=-=-=-=-=-=-=-=-=-=- */
+.carousel {
+    /* background-color: pink !important; */
+    margin-top: 4rem;
+    width: 100%;
+
+    /* Sem highlight */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.divDescricao {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 1vw;
+    /* gap: 0.3vw; */
+}
+
+.descricao {
+    /* background-color: blue; */
+    width: 80%;
+    /* font-size: 22px;
+    line-height: 30px;
+    font-weight: 100;
+    text-align: left; */
+
+    color: var(--preto);
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    opacity: 0.8;
+    margin-top: 0.8rem;
+}
+
+/* =-=-=-=-=-=-=-=-= Vídeo =-=-=-=-=-=-=-=-= */
+.divMedia {
+    /* background-color: pink; */
+    /* margin: auto; */
+    width: 100%;
+}
+
+.video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 16px;
+}
