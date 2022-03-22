@@ -8,12 +8,12 @@ export default function Sessao2() {
         <section className={Styles.wrapper} style={{ background: '#fff' }}>
             <div className={Styles.principal}>
                 <div className={`${Styles.sessaoTituloPrincipal} ${Styles.margemTopXG}`}>
-                    <span className={`${Styles.tituloPrincipal} ${Styles.corPreto}`}>Projete produtos</span>
-                    <span className={`${Styles.tituloPrincipal} ${Styles.corPreto} ${Styles.opacidadeBaixa}`}>impressionantes</span>
-                    <span className={`${Styles.tituloPrincipal} ${Styles.corPreto} ${Styles.opacidadeBaixa}`}>com sua equipe.</span>
+                    <span className={`${Styles.tituloPrincipal} ${Styles.corPreto}`}>Cheio de recursos.</span>
+                    <span className={`${Styles.tituloPrincipal} ${Styles.corPreto} ${Styles.opacidadeBaixa}`}>Tudo que você precisa para</span>
+                    <span className={`${Styles.tituloPrincipal} ${Styles.corPreto} ${Styles.opacidadeBaixa}`}>criar um design interativo.</span>
 
                     <div className={`${Styles.botaoCustom} ${Styles.botaoCorPrincipal}`}>
-                        <Botao texto={'Entre agora — é gratuito'} url={'/docs'} isNovaAba={false} />
+                        <Botao texto={'Ver todos os recursos'} url={'/docs'} isNovaAba={false} />
                     </div>
                 </div>
 

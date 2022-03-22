@@ -25,7 +25,7 @@ export default function Sessao3() {
                     <span className={`${Styles.tituloPrincipal} ${Styles.corPreto} ${Styles.opacidadeBaixa}`}>com o Framer.</span>
 
                     <div className={`${Styles.botaoCustom} ${Styles.botaoCorPrincipal}`}>
-                        <Botao texto={'Entre agora — é gratuito'} url={'/docs'} isNovaAba={false} />
+                        <Botao texto={'Ver mais ideias'} url={'/docs'} isNovaAba={false} />
                     </div>
                 </div>
 

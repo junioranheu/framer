@@ -16,7 +16,7 @@ export default function Sessao4() {
                     <span className={`${Styles.tituloPrincipal} ${Styles.corPreto} ${Styles.opacidadeBaixa}`}>vão te ajudar.</span>
 
                     <div className={`${Styles.botaoCustom} ${Styles.botaoCorPrincipal}`}>
-                        <Botao texto={'Entre agora — é gratuito'} url={'/docs'} isNovaAba={false} />
+                        <Botao texto={'Começar agora'} url={'/docs'} isNovaAba={false} />
                     </div>
                 </div>
 
