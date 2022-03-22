@@ -27,31 +27,31 @@ export default function OpcoesDinamicas() {
         <div className={Styles.wrapper}>
             <div className={Styles.divVideo}>
                 {itemSelecionado.id === 1 && (
-                    <video className={`${Styles.video} animate__animated animate__fadeIn`} autoPlay loop muted playsInline disablePictureInPicture controls={false}>
+                    <video className={`${Styles.video} animate__animated animate__fadeIn delay02`} autoPlay loop muted playsInline disablePictureInPicture controls={false}>
                         <source src={Video4Um} type='video/mp4' />
                     </video>
                 )}
 
                 {itemSelecionado.id === 2 && (
-                    <video className={`${Styles.video} animate__animated animate__fadeIn`} autoPlay loop muted playsInline disablePictureInPicture controls={false}>
+                    <video className={`${Styles.video} animate__animated animate__fadeIn delay02`} autoPlay loop muted playsInline disablePictureInPicture controls={false}>
                         <source src={Video4Dois} type='video/mp4' />
                     </video>
                 )}
 
                 {itemSelecionado.id === 3 && (
-                    <video className={`${Styles.video} animate__animated animate__fadeIn`} autoPlay loop muted playsInline disablePictureInPicture controls={false}>
+                    <video className={`${Styles.video} animate__animated animate__fadeIn delay02`} autoPlay loop muted playsInline disablePictureInPicture controls={false}>
                         <source src={Video4Tres} type='video/mp4' />
                     </video>
                 )}
 
                 {itemSelecionado.id === 4 && (
-                    <video className={`${Styles.video} animate__animated animate__fadeIn`} autoPlay loop muted playsInline disablePictureInPicture controls={false}>
+                    <video className={`${Styles.video} animate__animated animate__fadeIn delay02`} autoPlay loop muted playsInline disablePictureInPicture controls={false}>
                         <source src={Video4Quatro} type='video/mp4' />
                     </video>
                 )}
 
                 {itemSelecionado.id === 5 && (
-                    <video className={`${Styles.video} animate__animated animate__fadeIn`} autoPlay loop muted playsInline disablePictureInPicture controls={false}>
+                    <video className={`${Styles.video} animate__animated animate__fadeIn delay02`} autoPlay loop muted playsInline disablePictureInPicture controls={false}>
                         <source src={Video4Cinco} type='video/mp4' />
                     </video>
                 )}
@@ -60,7 +60,7 @@ export default function OpcoesDinamicas() {
             <div className={Styles.divOpcoes}>
                 {itens.map((item, i) => (
                     item.id === itemSelecionado.id ? (
-                        <div key={item.id} id={item.id} onClick={(e) => handleSelecionarOpcao(e)} className={`${Styles.opcaoSelecionada} animate__animated animate__fadeInUp animate__faster`}>
+                        <div key={item.id} id={item.id} onClick={(e) => handleSelecionarOpcao(e)} className={`${Styles.opcaoSelecionada} animate__animated animate__slideInUp animate__faster`}>
                             <span className={`${Styles.titulo} opacidade`}>{item.titulo}</span>
                             <span className={Styles.desc}>{item.desc}</span>
 

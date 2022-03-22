@@ -42,17 +42,17 @@ export default function Sessao1() {
                     </div>
 
                     {opcaoVideoSelecionada === 1 && (
-                        <video className={`${Styles.video} animate__animated animate__fadeIn`} autoPlay loop muted playsInline disablePictureInPicture controls={false}>
+                        <video className={`${Styles.video} animate__animated animate__fadeIn delay02`} autoPlay loop muted playsInline disablePictureInPicture controls={false}>
                             <source src={Video1} type='video/mp4' />
                         </video>
                     )}
                     {opcaoVideoSelecionada === 2 && (
-                        <video className={`${Styles.video} animate__animated animate__fadeIn`} autoPlay loop muted playsInline disablePictureInPicture controls={false}>
+                        <video className={`${Styles.video} animate__animated animate__fadeIn delay02`} autoPlay loop muted playsInline disablePictureInPicture controls={false}>
                             <source src={Video2} type='video/mp4' />
                         </video>
                     )}
                     {opcaoVideoSelecionada === 3 && (
-                        <video className={`${Styles.video} animate__animated animate__fadeIn`} autoPlay loop muted playsInline disablePictureInPicture controls={false}>
+                        <video className={`${Styles.video} animate__animated animate__fadeIn delay02`} autoPlay loop muted playsInline disablePictureInPicture controls={false}>
                             <source src={Video3} type='video/mp4' />
                         </video>
                     )}

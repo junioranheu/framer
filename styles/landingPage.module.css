@@ -65,6 +65,7 @@
     letter-spacing: -.046em;
 }
 
+/* =-=-=-=-=-=-=-=-= Botão =-=-=-=-=-=-=-=-= */
 .botaoCustom button {
     /* color: var(--cor-principal); */
     font-size: 1.2rem;
@@ -81,6 +82,16 @@
 
 .botaoCorVerdeAgua button {
     background-color: #3ED7DA;
+    color: var(--branco);
+}
+
+.botaoPreto button {
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+.botaoCorPrincipal button {
+    background-color: var(--cor-principal);
     color: var(--branco);
 }
 

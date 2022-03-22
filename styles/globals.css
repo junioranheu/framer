@@ -95,6 +95,14 @@ a {
   transform-origin: 0 100%;
 }
 
+/* =-=-=-=-=-=-=-=-=-=-=-=- animate.css =-=-=-=-=-=-=-=-=-=-=-=- */
+.animate__animated.delay02 {
+  -webkit-animation-delay: .2s;
+  animation-delay: .2s;
+  -webkit-animation-delay: calc(1s*.2);
+  animation-delay: calc(1s*.2)
+}
+
 /* =-=-=-=-=-=-=-=-=-=-=-=- react-code-blocks =-=-=-=-=-=-=-=-=-=-=-=- */
 /*  Remover o background dos blocos de código */
 code div, code div span {

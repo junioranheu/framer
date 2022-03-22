@@ -6,8 +6,8 @@
 }
 
 .wrapper div:nth-child(1) {
-    /* background-color: red; */
-    width: 60%
+    /* background-color: yellow; */
+    width: 60%;
 }
 
 .wrapper div:nth-child(2) {
@@ -92,6 +92,7 @@
 .divVideo {
     /* background-color: pink; */
     /* margin: auto; */
+    /* height: 100%; */
     width: 100%;
 }
 
