@@ -1,6 +1,7 @@
 https://www.framer.com/docs/introduction/
 
 --
+iniciar sessao5
 finalizar landingPages
 responsividade na landingPage
 habilitar o modo light na landing page

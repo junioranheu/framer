@@ -65,6 +65,12 @@
     letter-spacing: -.046em;
 }
 
+.divUsuario img {
+    /* background-color: red; */
+    width: 50px !important;
+    border-radius: 50%;
+}
+
 /* =-=-=-=-=-=-=-=-= Botão =-=-=-=-=-=-=-=-= */
 .botaoCustom button {
     /* color: var(--cor-principal); */
