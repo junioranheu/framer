@@ -76,6 +76,12 @@
     border-radius: 50%;
 }
 
+.imagemRelative {
+    /* background-color: pink; */
+    position: relative;
+    bottom: -2rem;
+}
+
 /* =-=-=-=-=-=-=-=-= Botão =-=-=-=-=-=-=-=-= */
 .botaoCustom button {
     /* color: var(--cor-principal); */
