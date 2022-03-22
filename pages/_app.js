@@ -4,6 +4,7 @@ import '../fonts/GTWalsheim.css';
 import '../fonts/NanumPenScript.css';
 import '../fonts/PTMono.css';
 import LayoutDocs from '../layouts/docs.js';
+import LayoutEntrar from '../layouts/entrar.js';
 import LayoutLandingPage from '../layouts/landingPage.js';
 import '../styles/globals.css';
 
@@ -30,6 +31,9 @@ export default function App({ Component, pageProps, ...appProps }) {
 
         if (url.includes('/docs') || url.includes('/devs')) {
             return <LayoutDocs Component={Component} pageProps={pageProps} />
+        }
+        else if (url.includes('/entrar')){
+            return <LayoutEntrar Component={Component} pageProps={pageProps} />
         }
         else if (url.includes('/precos')) {
             return <LayoutLandingPage Component={Component} pageProps={pageProps} />
