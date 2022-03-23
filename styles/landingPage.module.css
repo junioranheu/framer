@@ -242,6 +242,10 @@
     .tituloPrincipal {
         font-size: 3rem;
     }
+
+    .sessao6 {
+        display: none;
+    }
 }
 
 /* smartphones, Android phones, landscape iPhone */

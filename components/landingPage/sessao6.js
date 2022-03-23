@@ -7,7 +7,7 @@ import Botao from '../outros/botao.js';
 export default function Sessao6() {
     return (
         <Fragment>
-            <section className={Styles.wrapper} style={{ background: 'linear-gradient(180deg,#a8ffd9,hsla(0,0%,100%,.7))' }}>
+            <section className={`${Styles.wrapper} ${Styles.sessao6}`} style={{ background: 'linear-gradient(180deg,#a8ffd9,hsla(0,0%,100%,.7))' }}>
                 <div className={Styles.principal} style={{ paddingBottom: '0%', overflowY: 'hidden' }}>
                     <div className={`${Styles.sessaoTituloPrincipal} ${Styles.margemTopXG}`}>
                         <span className={`${Styles.tituloPrincipal}`} style={{ color: '#1A1A1A' }}>Comece, hoje, criando</span>
