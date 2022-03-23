@@ -8,7 +8,6 @@ import Botao from '../../components/outros/botao.js';
 import Video1 from '../../static/pages/landingPage/carousel/1.mp4';
 import Video2 from '../../static/pages/landingPage/carousel/2.mp4';
 import Video3 from '../../static/pages/landingPage/carousel/3.mp4';
-import Video4 from '../../static/pages/landingPage/carousel/4.mp4';
 import Video5 from '../../static/pages/landingPage/carousel/5.mp4';
 import Video6 from '../../static/pages/landingPage/carousel/6.mp4';
 import StylesCarousel from '../../styles/carousel.module.css';
@@ -66,12 +65,12 @@ export default function Sessao3() {
                         />
                     </SwiperSlide>
 
-                    <SwiperSlide>
+                    {/* <SwiperSlide>
                         <Slide
                             video={Video4}
                             descricao={loremIpsum({ count: 3 })}
                         />
-                    </SwiperSlide>
+                    </SwiperSlide> */}
 
                     <SwiperSlide>
                         <Slide
