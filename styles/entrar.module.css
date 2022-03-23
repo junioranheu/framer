@@ -60,9 +60,17 @@
     border-bottom: 2px solid var(--cor-border-hr);
 }
 
-.divDireita{
-      background-color: pink;
-      width: 50%;
+.divDireita {
+    background-color: var(--super-preto);
+    width: 50%;
+}
+
+.video {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    /* object-fit: cover;
+    object-position: center top; */
 }
 
 /* =-=-=-=-=-=-=-=-= Input =-=-=-=-=-=-=-=-= */
@@ -104,5 +112,22 @@
 
 /* =-=-=-=-=-=-=-=-= Botão =-=-=-=-=-=-=-=-= */
 .botaoCustom button {
-    width: 15vw;
+    width: 300px;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=- Media queries =-=-=-=-=-=-=-=-=-=-=-=- */
+/* big landscape tablets, laptops, and desktops */
+@media (max-width:1025px) {
+    .divEsquerda {
+        /* background-color: pink; */
+        width: 100%;
+    }
+
+    .divDireita {
+        width: 0%;
+    }
+
+    .botaoCustom button {
+        width: 300px;
+    }
 }
