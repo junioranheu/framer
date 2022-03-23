@@ -24,7 +24,7 @@ export default function Index() {
             Aviso.custom(msg, 20000);
             isMostrarAviso(false);
         }
-    }, [mostrarAviso]);
+    }, []);
 
     const [exibirConteudo, setExibirConteudo] = useState(false);
     const { observe, inView } = useInView({
