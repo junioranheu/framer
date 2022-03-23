@@ -3,17 +3,15 @@ import Video4Cinco from '../../static/pages/landingPage/video4Cinco.mp4';
 import Video4Dois from '../../static/pages/landingPage/video4Dois.mp4';
 import Video4Quatro from '../../static/pages/landingPage/video4Quatro.mp4';
 import Video4Tres from '../../static/pages/landingPage/video4Tres.mp4';
-// import Video4Um from '../../static/pages/landingPage/video4Um.mp4';
 import Styles from '../../styles/landingPage.opcoesDinamicas.module.css';
 import Botao from '../outros/botao';
 
 export default function OpcoesDinamicas() {
     const itens = [
-        // { id: 1, titulo: 'Layout', video: Video4Um, desc: 'Elit tempor quis cupidatat ut ad aliqua. Adipisicing culpa ea adipisicing quis. Do excepteur et consequat mollit.' },
-        { id: 2, titulo: 'Menu', video: Video4Dois, desc: 'Nostrud ad sit exercitation anim sit esse incididunt nulla nulla. Nulla id magna qui elit nostrud eiusmod eiusmod magna.' },
-        { id: 3, titulo: 'Componentes', video: Video4Tres, desc: 'Consequat aliquip eu ea commodo quis non veniam. Lorem duis sit deserunt ad veniam labore cupidatat sint.' },
-        { id: 4, titulo: 'Interações', video: Video4Quatro, desc: 'Laboris enim cupidatat nulla esse. Labore adipisicing eiusmod reprehenderit pariatur reprehenderit minim nulla exercitation aliqua.' },
-        { id: 5, titulo: 'Preview', video: Video4Cinco, desc: 'Amet proident laboris nulla qui incididunt occaecat. Incididunt eiusmod irure aute ad ex.' }
+        { id: 1, titulo: 'Menu', video: Video4Dois, desc: 'Nostrud ad sit exercitation anim sit esse incididunt nulla nulla. Nulla id magna qui elit nostrud eiusmod eiusmod magna.' },
+        { id: 2, titulo: 'Componentes', video: Video4Tres, desc: 'Consequat aliquip eu ea commodo quis non veniam. Lorem duis sit deserunt ad veniam labore cupidatat sint.' },
+        { id: 3, titulo: 'Interações', video: Video4Quatro, desc: 'Laboris enim cupidatat nulla esse. Labore adipisicing eiusmod reprehenderit pariatur reprehenderit minim nulla exercitation aliqua.' },
+        { id: 4, titulo: 'Preview', video: Video4Cinco, desc: 'Amet proident laboris nulla qui incididunt occaecat. Incididunt eiusmod irure aute ad ex.' }
     ]
 
     const [itemSelecionado, setItemSelecionado] = useState(itens[0]);
@@ -26,11 +24,11 @@ export default function OpcoesDinamicas() {
     return (
         <div className={Styles.wrapper}>
             <div className={Styles.divVideo}>
-                {itemSelecionado.id === 1 && (
+                {/* {itemSelecionado.id === 1 && (
                     <video className={`${Styles.video} animate__animated animate__fadeIn delay02`} autoPlay loop muted playsInline disablePictureInPicture controls={false}>
                         <source src={Video4Um} type='video/mp4' />
                     </video>
-                )}
+                )} */}
 
                 {itemSelecionado.id === 2 && (
                     <video className={`${Styles.video} animate__animated animate__fadeIn delay02`} autoPlay loop muted playsInline disablePictureInPicture controls={false}>
