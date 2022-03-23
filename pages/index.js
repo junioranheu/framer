@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Sessao1 from '../components/landingPage/sessao1.js';
 import Sessao2 from '../components/landingPage/sessao2.js';
 import Sessao3 from '../components/landingPage/sessao3.js';
@@ -9,14 +9,18 @@ import { Aviso } from '../components/outros/aviso';
 import EmojiAleatorio from '../utils/outros/emojiAleatorio';
 
 export default function Index() {
+    const [mostrarAviso, isMostrarAviso] = useState(true);
     useEffect(() => {
         // Aviso;
-        const msg =
-            `Olá! ${EmojiAleatorio()}<br/><br/> 
+        if (mostrarAviso) {
+            const msg =
+                `Olá! ${EmojiAleatorio()}<br/><br/> 
           Esse projeto foi replicado, sem fins lucrativos, a fim de estudo apenas, utilizando React.js e Next.js, a partir de um projeto real, de uma empresa real.<br/><br/> 
           Feito por @junioranheu.<br/><br/> 
           Todos os direitos reservados à @framerapp.`;
-        Aviso.custom(msg, 20000);
+            Aviso.custom(msg, 20000);
+            isMostrarAviso(false);
+        }
     }, []);
 
     return (
