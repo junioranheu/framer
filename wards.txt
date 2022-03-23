@@ -1,7 +1,5 @@
 https://www.framer.com/docs/introduction/
 
 --
-fazer botao de voltar do ENTRAR
-fazer CRIAR CONTA
 fazer alguma opção no botão de busca
 exibir toasty igual dos outros projetos

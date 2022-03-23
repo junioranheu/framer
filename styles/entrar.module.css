@@ -127,6 +127,16 @@
     opacity: 0.7;
 }
 
+/* =-=-=-=-=-=-=-=-= Checkbox =-=-=-=-=-=-=-=-= */
+.checkbox {
+    color: #f3f3f3;
+    display: flex;
+}
+
+.checkbox label{
+    margin-left: 5px;
+}
+
 /* =-=-=-=-=-=-=-=-=-=-=-=- Media queries =-=-=-=-=-=-=-=-=-=-=-=- */
 /* big landscape tablets, laptops, and desktops */
 @media (max-width:1025px) {
