@@ -1,6 +1,7 @@
 https://www.framer.com/docs/introduction/
 
 --
-fazer ENTRAR
-responsividade ENTRAR
+
 fazer CRIAR CONTA
+fazer alguma opção no botão de busca
+exibir toasty igual dos outros projetos
