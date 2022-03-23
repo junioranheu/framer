@@ -8,6 +8,7 @@
   --cor-principal-escura: hsl(257, 80%, 60%);
   --cor-border-hr: rgba(42, 42, 42, 100);
   --cor-roxo-card: linear-gradient(to bottom right, var(--cor-principal), var(--cor-principal-escura));
+  --toastify-color-progress-light: var(--cor-principal);
 }
 
 html, body {
