@@ -24,31 +24,25 @@ export default function OpcoesDinamicas() {
     return (
         <div className={Styles.wrapper}>
             <div className={Styles.divVideo}>
-                {/* {itemSelecionado.id === 1 && (
-                    <video className={`${Styles.video} animate__animated animate__fadeIn delay02`} autoPlay loop muted playsInline disablePictureInPicture controls={false}>
-                        <source src={Video4Um} type='video/mp4' />
-                    </video>
-                )} */}
-
-                {itemSelecionado.id === 2 && (
+                {itemSelecionado.id === 1 && (
                     <video className={`${Styles.video} animate__animated animate__fadeIn delay02`} autoPlay loop muted playsInline disablePictureInPicture controls={false}>
                         <source src={Video4Dois} type='video/mp4' />
                     </video>
                 )}
 
-                {itemSelecionado.id === 3 && (
+                {itemSelecionado.id === 2 && (
                     <video className={`${Styles.video} animate__animated animate__fadeIn delay02`} autoPlay loop muted playsInline disablePictureInPicture controls={false}>
                         <source src={Video4Tres} type='video/mp4' />
                     </video>
                 )}
 
-                {itemSelecionado.id === 4 && (
+                {itemSelecionado.id === 3 && (
                     <video className={`${Styles.video} animate__animated animate__fadeIn delay02`} autoPlay loop muted playsInline disablePictureInPicture controls={false}>
                         <source src={Video4Quatro} type='video/mp4' />
                     </video>
                 )}
 
-                {itemSelecionado.id === 5 && (
+                {itemSelecionado.id === 4 && (
                     <video className={`${Styles.video} animate__animated animate__fadeIn delay02`} autoPlay loop muted playsInline disablePictureInPicture controls={false}>
                         <source src={Video4Cinco} type='video/mp4' />
                     </video>
