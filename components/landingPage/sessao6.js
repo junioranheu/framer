@@ -15,7 +15,7 @@ export default function Sessao6() {
                         <span className={`${Styles.tituloPrincipal} ${Styles.opacidadeBaixa}`} style={{ color: '#1A1A1A' }}>Sem pagar nada.</span>
 
                         <div className={`${Styles.botaoCustom} ${Styles.botaoPreto}`}>
-                            <Botao texto={'Começar agora — é gratuito'} url={'/docs'} isNovaAba={false} />
+                            <Botao texto={'Começar agora — é gratuito'} url={'/docs'} isNovaAba={false} Svg='' />
                         </div>
                     </div>
 

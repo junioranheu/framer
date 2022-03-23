@@ -20,7 +20,7 @@ export default function Navbar2() {
                     <Link href='/entrar'><a>Entrar</a></Link>
 
                     <span className={Styles.margemBotao}>
-                        <Botao texto={'Crie sua conta'} url={'/'} isNovaAba={false} />
+                        <Botao texto={'Crie sua conta'} url={'/'} isNovaAba={false} Svg='' />
                     </span>
                 </div>
             </div>

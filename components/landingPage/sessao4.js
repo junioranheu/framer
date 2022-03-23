@@ -16,7 +16,7 @@ export default function Sessao4() {
                     <span className={`${Styles.tituloPrincipal} ${Styles.corPreto} ${Styles.opacidadeBaixa}`}>vão te ajudar.</span>
 
                     <div className={`${Styles.botaoCustom} ${Styles.botaoCorPrincipal}`}>
-                        <Botao texto={'Começar agora'} url={'/docs'} isNovaAba={false} />
+                        <Botao texto={'Começar agora'} url={'/docs'} isNovaAba={false} Svg='' />
                     </div>
                 </div>
 
@@ -47,7 +47,7 @@ export default function Sessao4() {
                                 </span>
 
                                 <div className={`${StylesAlternativo.botaoCustom} ${StylesAlternativo.botaoBranco}`}>
-                                    <Botao texto={'Saiba mais sobre o caso'} url={'/docs'} isNovaAba={false} />
+                                    <Botao texto={'Saiba mais sobre o caso'} url={'/docs'} isNovaAba={false} Svg='' />
                                 </div>
                             </div>
                         </div>

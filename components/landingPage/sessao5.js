@@ -31,7 +31,7 @@ export default function Sessao5() {
                                     </span>
 
                                 <div className={`${StylesAlternativo.botaoCustom} ${StylesAlternativo.botaoBranco}`}>
-                                    <Botao texto={'Entrar no discord'} url={'https://discord.gg/RdKDenAu8d'} isNovaAba={false} />
+                                    <Botao texto={'Entrar no discord'} url={'https://discord.gg/RdKDenAu8d'} isNovaAba={false} Svg='' />
                                 </div>
                             </div>
                         </div>

@@ -13,7 +13,7 @@ export default function Sessao2() {
                     <span className={`${Styles.tituloPrincipal} ${Styles.corPreto} ${Styles.opacidadeBaixa}`}>criar um design interativo.</span>
 
                     <div className={`${Styles.botaoCustom} ${Styles.botaoCorPrincipal}`}>
-                        <Botao texto={'Ver todos os recursos'} url={'/docs'} isNovaAba={false} />
+                        <Botao texto={'Ver todos os recursos'} url={'/docs'} isNovaAba={false} Svg='' />
                     </div>
                 </div>
 

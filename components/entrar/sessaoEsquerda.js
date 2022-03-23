@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Botao from '../../components/outros/botao.js';
 import Framer from '../../components/svg/framer.js';
 import Styles from '../../styles/entrar.module.css';
+import Google from '../svg/google.js';
 
 export default function SessaoEsquerda() {
     const [opcaoContinuarEmail, setOpcaoContinuarEmail] = useState(false);
@@ -14,7 +15,7 @@ export default function SessaoEsquerda() {
             <span className={Styles.subtitulo}>Não tem uma conta ainda? <Link href='/criar-conta'><a className={'cor-principal'}>Crie a sua aqui</a></Link></span>
 
             <div className={`${Styles.botaoCustom} ${Styles.margemTopXP}`}>
-                <Botao texto={`Continuar com o Google`} url={'/docs'} isNovaAba={false} />
+                <Botao texto='&nbsp;&nbsp;Continuar com o Google' url={'/docs'} isNovaAba={false} Svg={<Google width={'25px'} />} />
             </div>
 
             {opcaoContinuarEmail ? (
@@ -24,7 +25,7 @@ export default function SessaoEsquerda() {
                     <input className={`${Styles.input} ${Styles.margemTopP}`} type='email' placeholder='E-mail' autoCorrect='off' autoCapitalize='off' spellCheck='false' />
 
                     <div className={`${Styles.botaoCustom} ${Styles.margemTopP}`}>
-                        <Botao texto={'Entrar'} url={'/docs'} isNovaAba={false} />
+                        <Botao texto={'Entrar'} url={'/docs'} isNovaAba={false} Svg='' />
                     </div>
                 </div>
             ) : (

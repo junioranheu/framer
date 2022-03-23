@@ -30,7 +30,7 @@ export default function Sessao1() {
                     <span className={`${Styles.tituloPrincipal} ${Styles.opacidadeBaixa}`}>com sua equipe.</span>
 
                     <div className={`${Styles.botaoCustom} ${Styles.botaoBranco}`}>
-                        <Botao texto={'Entre agora — é gratuito'} url={'/docs'} isNovaAba={false} />
+                        <Botao texto={'Entre agora — é gratuito'} url={'/docs'} isNovaAba={false} Svg='' />
                     </div>
                 </div>
 
@@ -66,7 +66,7 @@ export default function Sessao1() {
                         </span>
 
                         <div className={`${Styles.botaoCustom} ${Styles.botaoBranco}`}>
-                            <Botao texto={'Comece agora'} url={'/docs'} isNovaAba={false} />
+                            <Botao texto={'Comece agora'} url={'/docs'} isNovaAba={false} Svg='' />
                         </div>
                     </div>
 
@@ -77,7 +77,7 @@ export default function Sessao1() {
                         </span>
 
                         <div className={`${Styles.botaoCustom} ${Styles.botaoBranco}`}>
-                            <Botao texto={'Saiba mais'} url={'/docs'} isNovaAba={false} />
+                            <Botao texto={'Saiba mais'} url={'/docs'} isNovaAba={false} Svg='' />
                         </div>
                     </div>
                 </div>

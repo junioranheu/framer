@@ -65,7 +65,7 @@ export default function OpcoesDinamicas() {
                             <span className={Styles.desc}>{item.desc}</span>
 
                             <div className={`${Styles.botaoCustom} ${Styles.botaoBranco}`}>
-                                <Botao texto={'Saiba mais'} url={'/docs'} isNovaAba={false} />
+                                <Botao texto={'Saiba mais'} url={'/docs'} isNovaAba={false} Svg='' />
                             </div>
                         </div>
                     ) : (
