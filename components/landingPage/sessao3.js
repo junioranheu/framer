@@ -28,7 +28,6 @@ export default function Sessao3() {
                     </div>
                 </div>
 
-
                 <Swiper className={StylesCarousel.carousel}
                     spaceBetween={50} slidesPerView={3}
 
