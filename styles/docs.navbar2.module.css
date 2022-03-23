@@ -109,7 +109,7 @@
     border: none;
     margin: 0;
     background: hsla(0, 0%, 100%, 0.1);
-    border-radius: 50%;
+    border-radius: 20px;
     color: hsla(0, 0%, 100%, 0.7);
     cursor: pointer;
     font: inherit;
