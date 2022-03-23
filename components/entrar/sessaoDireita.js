@@ -2,7 +2,7 @@ import React from 'react';
 import Video1 from '../../static/pages/entrar/video1.mp4';
 import Styles from '../../styles/entrar.module.css';
 
-export default function sessaoDireita() {
+export default function SessaoDireita() {
     return (
         <section className={Styles.divDireita}>
             <video className={Styles.video} autoPlay loop muted playsInline disablePictureInPicture controls={false}>

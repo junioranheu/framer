@@ -4,7 +4,7 @@ import Botao from '../../components/outros/botao.js';
 import Framer from '../../components/svg/framer.js';
 import Styles from '../../styles/entrar.module.css';
 
-export default function sessaoEsquerda() {
+export default function SessaoEsquerda() {
     const [opcaoContinuarEmail, setOpcaoContinuarEmail] = useState(false);
 
     return (
