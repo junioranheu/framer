@@ -1,5 +1,2 @@
 https://www.framer.com/docs/introduction/
 
---
-fazer alguma opção no botão de busca
-
