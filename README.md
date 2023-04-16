@@ -8,7 +8,7 @@ Projeto iniciado em 16/03/2022.
 Esse foi um dos meus primeiros projetos em React. Definitivamente desses primeiros, foi o mais difícil: são muitas páginas, com muito conteúdo, com coisas complexas, sem esquecer de citar a responsividade!
 
 ## Habilidades
-React.js, Next.js, HTML, CSS
+React.js, Next.js, HTML, CSS.
 
 
 ## Publicação
