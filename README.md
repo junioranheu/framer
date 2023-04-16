@@ -1,7 +1,16 @@
-<h1 align="center">
-Framer - @junioranheu
-</h1>
+# Framer em React.js
 
-<p align="center">Clonagem da plataforma Framer, feito com React.js e Next.js.
-<br/><br/><a align="center" href="https://framer-anheu.vercel.app/" target="_blank">Aplicação rodando na Vercel</a>
-</p>
+Projeto (não tão simples) de replicação de algumas páginas do Framer em React.js e Next.js.
+
+Projeto iniciado em 16/03/2022.
+## Aprendizados
+
+Esse foi um dos meus primeiros projetos em React. Definitivamente desses primeiros, foi o mais difícil: são muitas páginas, com muito conteúdo, com coisas complexas, sem esquecer de citar a responsividade!
+
+## Habilidades
+React.js, Next.js, HTML, CSS
+
+
+## Publicação
+O projeto foi publicado na Vercel:
+https://framer-anheu.vercel.app/
